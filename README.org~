@@ -1,0 +1,77 @@
+#+STARTUP: overview
+#+TITLE: 6th Open-Source Computational Acoutics Workshop and Summer Camp
+#+SUBTITLE: Calender
+#+CREATOR: Fethi Okyar
+#+LANGUAGE: en/tr
+#+OPTIONS: num:nil
+#+ATTR_HTML: :style margin-left: auto; margin-right: auto;
+
+
+*Management:* Ali Fethi Okyar
+
+* Highlights:
+** Seminar: 
+- Topic: Mechanical identification of soft tissues featuring veins/arteries
+- Speaker: Ömer B. (TEI)
+- Date and time: <2023-07-31 Mon 09:00>
+- Video Call Link: https://meet.google.com/sxr-uuon-kiu
+- Youtube Channel: oscmw
+- Twitch Live Link:
+** M.Sc. Defense
+- Topic: Surface acoustic wave based piezoelectric biomass sensors
+- Speaker: Ufuk B. (Yeditepe Univ.)
+- Date: TBA
+- Date and time: <2023-08-10 Thu 14:00>
+- Video Call Link:
+- Youtube Channel: oscmw
+- Twitch Live Link:
+* Workshop Calender:
+Live stream: https://www.twitch.tv/oscmw_
+** Aug.18:
+<2023-08-18 Fri>
+*** 21:00 Session 1: from where we left (github, vascage, etc.)
+- Topics:
+  1. the github repo (mekanotrix), two-factor authentication issue, alternatives
+  2. Picking up the pieces: chemo-mechanical computation of muscular contraction in FEAP (https://projects.ce.berkeley.edu/feap)
+** Aug.19:
+<2023-08-19 Sat>
+*** 11:00 Session 2: Industry Talk
+- Speaker: Aydin Karaali (Freelance)
+- Topic: How can computational acoustics be employed in the redesign/refurbishment of a Langevin transducer?
+- Discussants: Aydin K., Fethi Okyar (Yeditepe Univ.), Nezih Topaloglu (Yeditepe Univ.), Mete Oguc (Atlas Univ.)
+*** 15:00 Session 3: Panel Discussion
+- Keywords: piezo-elastodynamics, elastic waves, vibration of plates, thickness shear mode, modal analysis
+- Speaker: Ufuk Tan Baler, (MSc'23, Yeditepe Univ.)
+- Panel Title: Investigation of thickness shear vibration in piezo disks with emphasis on literate programming
+- Panelists: Fethi O., ?Emilio Barchiesi (Univ. Sassari), Nezih Topaloglu (Yeditepe Univ.), Mete O. (Atlas Univ.), Tahsin Khajah (UTTyler)
+- Sources:
+  1. Brissaud, 2010. (https://ieeexplore.ieee.org/document/5585487/)
+  2. Comsol tutorial (https://www.comsol.com/blogs/piezoelectric-materials-applying-the-standards/)
+*** 21:00 Session 4a: Python FEA workshop
+- Tutor: 
+- Participants: Neset Bickin, Yagmur Karanis, Ozgun Degirmenci, Kerem Aydinli, Mete O.
+- Sources:
+  1. https://github.com/seatemelleri/SEA-Temelleri
+*** 21:00 Session 4b: vascage FEAP workshop
+- Participants: Volkan Karadag (Yeditepe Univ.), Furkan Tasdemir (Dogus), Omer Buyukkaya (MSc'23 Yeditepe Univ., TEI), Bilge Tuna (Yeditepe Univ.), Cansenem Ozkan (Yeditepe Univ.), Emine Ozkan
+** Aug.20:
+<2023-08-20 Sun>
+*** 11:00 Session 5: Invited Talk
+- Title: Shape Sensitivities for Thermoacoustic Stability of Annular Combustors
+- Speaker: Ekrem Ekici (Cambridge Univ.)
+*** 15:00 Session 6a: FEniCS workshop 
+- Title: installation from source of the FEniCSx in an Ubuntu container, or via either Conda or apt
+- Tutor: Ufuk B.
+- Participants: Yagmur K., Neset B., Ozgun D., Kerem A.
+*** 15:00 Session 6b: vascage FEAP workshop 
+- Participants: Volkan K., Furkan T., Omer B., Bilge T., Cansenem O., Emine O.
+*** 19:00 Dinner at Lunapark Restaurant
+* Promo:
+** 1st international conference on metamaterials:
+https://metamat2026.sciencesconf.org/
+** 16th national acoustical congress:
+http://takder.org/?page_id=3481&lang=en
+* Notes:
+** camp instructions:
+- çadır ve evde kalacaklar için çarşaf, terlik, havlu, sinek ilacı, mayo, bilgisayar
+- birinci akşam yemek olmayacak, oturum 19:00'da başlar, en geç bir saat öncesinde check-in yapılır. Ikinci gün sabah çay-poğaça, öğledensonra mangal, üçüncü gün sabah çay-poğaça var. Gün içerisinde çay-kahve yapılır. Tatlı tuzlu, atıştırmalık, meşrubat, ve mangal için alkollü içeceğinizi yanınızda getiriniz.

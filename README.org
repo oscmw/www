@@ -1,71 +1,63 @@
 #+STARTUP: overview
-#+TITLE: 6th Open-Source Computational Acoutics Workshop and Summer Camp
-#+SUBTITLE: Calender
+#+TITLE: 6th Open-Source Computational Mechanics and Acoutics Workshop and Summer Camp
+#+SUBTITLE: Program
 #+CREATOR: Fethi Okyar
 #+LANGUAGE: en/tr
-#+OPTIONS: num:nil
+#+OPTIONS: num:nil toc:nil
 #+ATTR_HTML: :style margin-left: auto; margin-right: auto;
 
 
-*Management:* Ali Fethi Okyar
+*Management:* Fethi Okyar
 
 * Highlights:
-** Seminar: 
-- Topic: Mechanical identification of soft tissues featuring veins/arteries
-- Speaker: Ömer B. (TEI)
-- Date and time: <2023-07-31 Mon 09:00>
-- Video Call Link: https://meet.google.com/sxr-uuon-kiu
-- Youtube Channel: oscmw
-- Twitch Live Link:
-** M.Sc. Defense
-- Topic: Surface acoustic wave based piezoelectric biomass sensors
-- Speaker: Ufuk B. (Yeditepe Univ.)
-- Date: TBA
-- Date and time: <2023-08-10 Thu 14:00>
-- Video Call Link:
-- Youtube Channel: oscmw
-- Twitch Live Link:
+** Shahin Eskandari, PhD (Montreal, QC):
+#+ATTR_HTML: :width 100px
+[[./visuals/2025/passport_se.jpg]]
+** Prof. Tahsin Khajah (Tyler, TX)
+#+ATTR_HTML: :width 100px
+[[./visuals/2025/passport_tk.jpeg]]
+** Prof. Emek Abali (Uppsala, SK)
+#+ATTR_HTML: :width 100px
+[[./visuals/2025/passport_bea.webp]]
+** Prof. Hamid Akbarzadeh (Montreal, QC)
+#+ATTR_HTML: :width 100px 
+[[./visuals/2025/passport_has.jpg]]
 * Workshop Calender:
 Live stream: https://www.twitch.tv/oscmw_
-** Aug.18:
-<2023-08-18 Fri>
-*** 21:00 Session 1: from where we left (github, vascage, etc.)
+** Thursday, Aug.14:
+*** 14:00 Session 1: Essentials for Beginners
 - Topics:
-  1. the github repo (mekanotrix), two-factor authentication issue, alternatives
-  2. Picking up the pieces: chemo-mechanical computation of muscular contraction in FEAP (https://projects.ce.berkeley.edu/feap)
-** Aug.19:
-<2023-08-19 Sat>
-*** 11:00 Session 2: Industry Talk
-- Speaker: Aydin Karaali (Freelance)
-- Topic: How can computational acoustics be employed in the redesign/refurbishment of a Langevin transducer?
-- Discussants: Aydin K., Fethi Okyar (Yeditepe Univ.), Nezih Topaloglu (Yeditepe Univ.), Mete Oguc (Atlas Univ.)
-*** 15:00 Session 3: Panel Discussion
-- Keywords: piezo-elastodynamics, elastic waves, vibration of plates, thickness shear mode, modal analysis
-- Speaker: Ufuk Tan Baler, (MSc'23, Yeditepe Univ.)
-- Panel Title: Investigation of thickness shear vibration in piezo disks with emphasis on literate programming
-- Panelists: Fethi O., ?Emilio Barchiesi (Univ. Sassari), Nezih Topaloglu (Yeditepe Univ.), Mete O. (Atlas Univ.), Tahsin Khajah (UTTyler)
-- Sources:
-  1. Brissaud, 2010. (https://ieeexplore.ieee.org/document/5585487/)
-  2. Comsol tutorial (https://www.comsol.com/blogs/piezoelectric-materials-applying-the-standards/)
-*** 21:00 Session 4a: Python FEA workshop
-- Tutor: 
-- Participants: Neset Bickin, Yagmur Karanis, Ozgun Degirmenci, Kerem Aydinli, Mete O.
-- Sources:
-  1. https://github.com/seatemelleri/SEA-Temelleri
-*** 21:00 Session 4b: vascage FEAP workshop
-- Participants: Volkan Karadag (Yeditepe Univ.), Furkan Tasdemir (Dogus), Omer Buyukkaya (MSc'23 Yeditepe Univ., TEI), Bilge Tuna (Yeditepe Univ.), Cansenem Ozkan (Yeditepe Univ.), Emine Ozkan
-** Aug.20:
-<2023-08-20 Sun>
-*** 11:00 Session 5: Invited Talk
-- Title: Shape Sensitivities for Thermoacoustic Stability of Annular Combustors
-- Speaker: Ekrem Ekici (Cambridge Univ.)
-*** 15:00 Session 6a: FEniCS workshop 
-- Title: installation from source of the FEniCSx in an Ubuntu container, or via either Conda or apt
-- Tutor: Ufuk B.
-- Participants: Yagmur K., Neset B., Ozgun D., Kerem A.
-*** 15:00 Session 6b: vascage FEAP workshop 
-- Participants: Volkan K., Furkan T., Omer B., Bilge T., Cansenem O., Emine O.
-*** 19:00 Dinner at Lunapark Restaurant
+  1. (linux, console, zsh, ssh, python, emacs, git, latex, bibtex, zotero, etc.)
+  2. accessing our github repo (mekanotrix), the two-factor authentication issue
+
+*** 22:00 Session 2: Invited Talk
+- Speaker: Shahin Eskandarzadeh
+- Topic: 
+- Video Call Link: https://meet.gogle.com/sxr-uuon-kiu
+- Twitch Live Link:
+
+** Friday, Aug.15:
+*** 11:00 Session 3: 
+
+*** 21:00 Session 4: Invited Talk
+
+** Saturday, Aug.16:
+*** 11:00 Session 5:
+
+*** 16:00 Session 6: Invited Talk
+- Speaker: Bilen Emek Abali
+- Topic: 
+- Video Call Link: https://meet.gogle.com/sxr-uuon-kiu
+- Twitch Live Link:
+
+*** 21:00 Session 7: Invited Talk
+
+** Sunday, Aug.17:
+*** 11:00 Session 8:
+
+*** 15:00 Session 9: Closing 
+
+*** 19:00 Dinner at Lunapark
 * Promo:
 ** 1st international conference on metamaterials:
 https://metamat2026.sciencesconf.org/
