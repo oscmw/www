@@ -1,6 +1,6 @@
 #+STARTUP: overview
-#+TITLE: 6th Open-Source Computational Mechanics and Acoutics Workshop and Summer Camp
-#+SUBTITLE: Program
+#+TITLE: 6th Open-Source Computational Mechanics and Acoustics Workshop and Summer Camp
+#+SUBTITLE: Tentative Program
 #+CREATOR: Fethi Okyar
 #+LANGUAGE: en/tr
 #+OPTIONS: num:nil toc:nil
@@ -65,5 +65,7 @@ https://metamat2026.sciencesconf.org/
 http://takder.org/?page_id=3481&lang=en
 * Notes:
 ** camp instructions:
-- çadır ve evde kalacaklar için çarşaf, terlik, havlu, sinek ilacı, mayo, bilgisayar
-- birinci akşam yemek olmayacak, oturum 19:00'da başlar, en geç bir saat öncesinde check-in yapılır. Ikinci gün sabah çay-poğaça, öğledensonra mangal, üçüncü gün sabah çay-poğaça var. Gün içerisinde çay-kahve yapılır. Tatlı tuzlu, atıştırmalık, meşrubat, ve mangal için alkollü içeceğinizi yanınızda getiriniz.
+- bisiklet, çadır, çarşaf, terlik, havlu, sinek ilacı, mayo, bilgisayar
+- sabahları çay ve poğaça, öğledensonra mangal.
+- Gün içerisinde çay-kahve yapılır.
+- Tatlı tuzlu, atıştırmalık, meşrubat, ve mangal için alkollü içeceğinizi yanınızda getiriniz.
