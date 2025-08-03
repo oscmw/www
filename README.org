@@ -6,7 +6,6 @@
 #+OPTIONS: num:nil toc:nil
 #+ATTR_HTML: :style margin-left: auto; margin-right: auto;
 
-
 *Management:* Fethi Okyar
 
 * Highlights:
@@ -14,6 +13,10 @@
 #+ATTR_HTML: :width 100px
 [[./visuals/2025/passport_se.jpg]]
 ** Prof. Tahsin Khajah (Tyler, TX)
+- Topic: Comparing Taylor and Pade approximations for ultrasound imagining of biological media.
+- Video Call Link: https://meet.gogle.com/sxr-uuon-kiu
+- Twitch Live Link: 
+
 #+ATTR_HTML: :width 100px
 [[./visuals/2025/passport_tk.jpeg]]
 ** Prof. Emek Abali (Uppsala, SK)
@@ -26,11 +29,11 @@
 Live stream: https://www.twitch.tv/oscmw_
 ** Thursday, Aug.14:
 *** 14:00 Session 1: Essentials for Beginners
-- Topics:
+- Topics: 
   1. (linux, console, zsh, ssh, python, emacs, git, latex, bibtex, zotero, etc.)
   2. accessing our github repo (mekanotrix), the two-factor authentication issue
 
-*** 22:00 Session 2: Invited Talk
+*** 21:30 Session 2: Invited Talk
 - Speaker: Shahin Eskandarzadeh
 - Topic: 
 - Video Call Link: https://meet.gogle.com/sxr-uuon-kiu
@@ -39,7 +42,11 @@ Live stream: https://www.twitch.tv/oscmw_
 ** Friday, Aug.15:
 *** 11:00 Session 3: 
 
-*** 21:00 Session 4: Invited Talk
+*** 21:30 Session 4: Invited Talk
+- Speaker: Tahsin Khajah
+- Topic: Comparing Taylor and Pade approximations for ultrasound imagining of biological media.
+- Video Call Link: https://meet.gogle.com/sxr-uuon-kiu
+- Twitch Live Link: 
 
 ** Saturday, Aug.16:
 *** 11:00 Session 5:
@@ -50,7 +57,7 @@ Live stream: https://www.twitch.tv/oscmw_
 - Video Call Link: https://meet.gogle.com/sxr-uuon-kiu
 - Twitch Live Link:
 
-*** 21:00 Session 7: Invited Talk
+*** 21:30 Session 7: Invited Talk
 
 ** Sunday, Aug.17:
 *** 11:00 Session 8:
@@ -58,6 +65,19 @@ Live stream: https://www.twitch.tv/oscmw_
 *** 15:00 Session 9: Closing 
 
 *** 19:00 Dinner at Lunapark
+* Campers:
+- Asst. Prof. Mete Öğüç (Ph.D.,2023)
+- Volkan Karadağ (Ph.D.,2024)
+- Neşet Biçkin (ME,2025)
+- Ufuk Tan Baler (M.Sc.,2023)
+- Kerem Aydınlı (B.Sc.,2026)
+- Eren Kabarık (B.Sc., 2027)
+- Maya Çoban (B.Sc.,2028)
+- İlker Alkaşi (B.Sc.,2025)
+- Ozan Akyıldız (B.Sc.,2025)
+- Ege Yetkin
+** Alumni:
+- Faruk Büyükkaya (M.Sc.,2023)
 * Promo:
 ** 1st international conference on metamaterials:
 https://metamat2026.sciencesconf.org/
