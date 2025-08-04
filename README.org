@@ -22,9 +22,6 @@
 ** Prof. Emek Abali (Uppsala, SK)
 #+ATTR_HTML: :width 100px
 [[./visuals/2025/passport_bea.webp]]
-** Prof. Hamid Akbarzadeh (Montreal, QC)
-#+ATTR_HTML: :width 100px 
-[[./visuals/2025/passport_has.jpg]]
 * Workshop Calender:
 Live stream: https://www.twitch.tv/oscmw_
 ** Thursday, Aug.14:
@@ -34,7 +31,7 @@ Live stream: https://www.twitch.tv/oscmw_
   2. accessing our github repo (mekanotrix), the two-factor authentication issue
 
 *** 21:30 Session 2: Invited Talk
-- Speaker: Shahin Eskandarzadeh
+- Speaker: Shahin Eskandari
 - Topic: 
 - Video Call Link: https://meet.gogle.com/sxr-uuon-kiu
 - Twitch Live Link:
