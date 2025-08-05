@@ -25,45 +25,63 @@
 * Workshop Calender:
 Live stream: https://www.twitch.tv/oscmw_
 ** Thursday, Aug.14:
-*** 14:00 Session 1: Essentials for Beginners
+*** 14:00 Opening Session: Essentials for Beginners
+- Speaker: Fethi Okyar
 - Topics: 
   1. (linux, console, zsh, ssh, python, emacs, git, latex, bibtex, zotero, etc.)
   2. accessing our github repo (mekanotrix), the two-factor authentication issue
 
-*** 21:30 Session 2: Invited Talk
+*** 21:30 Session 1: Seminar
 - Speaker: Shahin Eskandari
-- Topic: 
-- Video Call Link: https://meet.gogle.com/sxr-uuon-kiu
-- Twitch Live Link:
+- Title: 
+- Video Call Link: https://meet.google.com/sxr-uuon-kiu
+- Twitch Live Link
 
 ** Friday, Aug.15:
-*** 11:00 Session 3: 
+*** 11:00 Session 2: Research Topic
+- Speaker: Kerem Aydınlı
+- Title: Computing Acoustic Scattering from 2D Irregular Closed Shapes
+- Video Call Link: 
 
-*** 21:30 Session 4: Invited Talk
+*** 14:00 Session 3: Industry Focus 
+- Title: Computing Resonance Frequencies of Langevin Transducers
+- Speakers: Akyildiz, MO and Alkasi, IK
+- Guest: Aydin Karaali
+- Video Call Link: 
+
+*** 21:30 Session 4: Seminar
 - Speaker: Tahsin Khajah
-- Topic: Comparing Taylor and Pade approximations for ultrasound imagining of biological media.
-- Video Call Link: https://meet.gogle.com/sxr-uuon-kiu
-- Twitch Live Link: 
+- Title: Comparing Taylor and Pade approximations for ultrasound imagining of biological media.
+- Video Call Link: 
+- Twitch Live Link
 
 ** Saturday, Aug.16:
-*** 11:00 Session 5:
+*** 11:00 Session 5: Research Topic
+- Title: Acoustic Metamaterials, Phononic Crsytal and their Biomedical Applications
+- Speaker: Mete Öğüç
+- Video Call Link: 
 
-*** 16:00 Session 6: Invited Talk
+*** 16:00 Session 6: Seminar
 - Speaker: Bilen Emek Abali
 - Topic: 
-- Video Call Link: https://meet.gogle.com/sxr-uuon-kiu
-- Twitch Live Link:
+- Video Call Link: 
+- Twitch Live Link
 
-*** 21:30 Session 7: Invited Talk
-
+*** 21:30 Session 7: Working on a Remote Computational Node
+- Speaker: Neşet Biçkin
+- Title: How to Setup, Synchronize and Run Programs in Remote Nodes
+ 
 ** Sunday, Aug.17:
-*** 11:00 Session 8:
+*** 11:00 Session 8: System Administration
+- Speaker: Ufuk Baler
+- Title: Setting up a Mail Server in Linux
 
-*** 15:00 Session 9: Closing 
+*** 14:00 Closing Session
+- Speaker: Fethi Okyar
 
 *** 19:00 Dinner at Lunapark
 * Campers:
-- Asst. Prof. Mete Öğüç (Ph.D.,2023)
+- Mete Öğüç (Ph.D.,2023)
 - Volkan Karadağ (Ph.D.,2024)
 - Neşet Biçkin (ME,2025)
 - Ufuk Tan Baler (M.Sc.,2023)
@@ -73,7 +91,7 @@ Live stream: https://www.twitch.tv/oscmw_
 - İlker Alkaşi (B.Sc.,2025)
 - Ozan Akyıldız (B.Sc.,2025)
 - Ege Yetkin
-** Alumni:
+** OSCMW Alumni:
 - Faruk Büyükkaya (M.Sc.,2023)
 
 * Camp Instructions:
