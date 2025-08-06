@@ -1,10 +1,11 @@
 #+STARTUP: overview
 #+TITLE: 6th Open-Source Computational Mechanics and Acoustics Workshop and Summer Camp
-#+SUBTITLE: Tentative Program
+#+SUBTITLE: Program
 #+CREATOR: Fethi Okyar
 #+LANGUAGE: en/tr
 #+OPTIONS: num:nil toc:nil
 #+ATTR_HTML: :style margin-left: auto; margin-right: auto;
+#+HTML_HEAD: <meta name="referrer" content="no-referrer">
 
 *Management:* Fethi Okyar
 
@@ -33,7 +34,7 @@ Live stream: https://www.twitch.tv/oscmw_
 
 *** 21:30 Session 1: Seminar
 - Speaker: Shahin Eskandari
-- Title: 
+- Title: Couple-Stress Theory for Materials with Microstructures
 - Video Call Link: https://meet.google.com/sxr-uuon-kiu
 - Twitch Live Link
 
@@ -44,8 +45,8 @@ Live stream: https://www.twitch.tv/oscmw_
 - Video Call Link: 
 
 *** 14:00 Session 3: Industry Focus 
-- Title: Computing Resonance Frequencies of Langevin Transducers
 - Speakers: Akyildiz, MO and Alkasi, IK
+- Title: Computing Resonance Frequencies of Langevin Transducers
 - Guest: Aydin Karaali
 - Video Call Link: 
 
@@ -57,8 +58,8 @@ Live stream: https://www.twitch.tv/oscmw_
 
 ** Saturday, Aug.16:
 *** 11:00 Session 5: Research Topic
-- Title: Acoustic Metamaterials, Phononic Crsytal and their Biomedical Applications
 - Speaker: Mete Öğüç
+- Title: Acoustic Metamaterials, Phononic Crsytal and their Biomedical Applications
 - Video Call Link: 
 
 *** 16:00 Session 6: Seminar
