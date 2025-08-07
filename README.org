@@ -9,6 +9,10 @@
 
 *Management:* Fethi Okyar and Neşet Biçkin
 
+Meeting Link: https://meet.jit.si/oscmw-2025
+
+Live stream: https://www.twitch.tv/oscmw_ (will be limited to some sessions only!)
+
 * Highlights:
 ** Shahin Eskandari, PhD (Montreal, QC):
 - Title: Couple-Stress Theory for Materials with Microstructures
@@ -26,8 +30,6 @@
 [[./visuals/2025/passport_bea.webp]]
 
 * Workshop Calender:
-Meeting Link: https://meet.jit.si/oscmw-2025
-Live stream: https://www.twitch.tv/oscmw_ (will be limited to some sessions only!)
 ** Thursday, Aug.14:
 *** 14:00 Opening Session: Essentials for Beginners
 - Speaker: Fethi Okyar
