@@ -7,12 +7,13 @@
 #+ATTR_HTML: :style margin-left: auto; margin-right: auto;
 #+HTML_HEAD: <meta name="referrer" content="no-referrer">
 
-*Management:* Fethi Okyar
+*Management:* Fethi Okyar and Neşet Biçkin
 
 * Highlights:
 ** Shahin Eskandari, PhD (Montreal, QC):
 #+ATTR_HTML: :width 100px
 [[./visuals/2025/passport_se.jpg]]
+
 ** Prof. Tahsin Khajah (Tyler, TX)
 - Topic: Comparing Taylor and Pade approximations for ultrasound imagining of biological media.
 - Video Call Link: https://meet.gogle.com/sxr-uuon-kiu
@@ -20,62 +21,68 @@
 
 #+ATTR_HTML: :width 100px
 [[./visuals/2025/passport_tk.jpeg]]
+
 ** Prof. Emek Abali (Uppsala, SK)
 #+ATTR_HTML: :width 100px
 [[./visuals/2025/passport_bea.webp]]
+
 * Workshop Calender:
-Live stream: https://www.twitch.tv/oscmw_
+Meeting Link: https://meet.jit.si/oscmw-2025
+Live stream: https://www.twitch.tv/oscmw_ (will be limited to some sessions only!)
 ** Thursday, Aug.14:
 *** 14:00 Opening Session: Essentials for Beginners
 - Speaker: Fethi Okyar
 - Topics: 
   1. (linux, console, zsh, ssh, python, emacs, git, latex, bibtex, zotero, etc.)
   2. accessing our github repo (mekanotrix), the two-factor authentication issue
+- Cassyni-AIAA Seminar: A database for reduced-complexity modeling of fluid flows
+- Speakers: Aaron Towne and Scott Dawson
+- Link: https://cassyni.com/events/M6cA5g1KqrcgQeL228Evuj
 
 *** 21:30 Session 1: Seminar
 - Speaker: Shahin Eskandari
-- Title: Couple-Stress Theory for Materials with Microstructures
-- Video Call Link: https://meet.google.com/sxr-uuon-kiu
-- Twitch Live Link
+- Title: *Couple-Stress Theory for Materials with Microstructures*
+- Online participation available via the link provided above.
+- Video-streaming over twitch will be available for this event.
 
 ** Friday, Aug.15:
 *** 11:00 Session 2: Research Topic
 - Speaker: Kerem Aydınlı
-- Title: Computing Acoustic Scattering from 2D Irregular Closed Shapes
-- Video Call Link: 
+- Title: *Computing Acoustic Scattering from 2D Irregular Closed Shapes*
+- Online participation available via the link provided above.
 
 *** 14:00 Session 3: Industry Focus 
 - Speakers: Akyildiz, MO and Alkasi, IK
-- Title: Computing Resonance Frequencies of Langevin Transducers
+- Title: *Computing Resonance Frequencies of Langevin Transducers*
 - Guest: Aydin Karaali
-- Video Call Link: 
+- Online participation available via the link provided above.
 
 *** 21:30 Session 4: Seminar
 - Speaker: Tahsin Khajah
-- Title: Comparing Taylor and Pade approximations for ultrasound imagining of biological media.
-- Video Call Link: 
-- Twitch Live Link
+- Title: *Comparing Taylor and Pade approximations for ultrasound imagining of biological media*
+- Online participation available via the link provided above.
+- Video-streaming over twitch will be available for this event.
 
 ** Saturday, Aug.16:
 *** 11:00 Session 5: Research Topic
 - Speaker: Mete Öğüç
-- Title: Acoustic Metamaterials, Phononic Crsytal and their Biomedical Applications
-- Video Call Link: 
+- Title: *Acoustic Metamaterials, Phononic Crsytal and their Biomedical Applications*
+- Online participation available via the link provided above.
 
 *** 16:00 Session 6: Seminar
 - Speaker: Bilen Emek Abali
-- Topic: 
-- Video Call Link: 
-- Twitch Live Link
+- Title: 
+- Online participation available via the link provided above.
+- Video-streaming over twitch will be available for this event.
 
 *** 21:30 Session 7: Working on a Remote Computational Node
 - Speaker: Neşet Biçkin
-- Title: How to Setup, Synchronize and Run Programs in Remote Nodes
+- Title: *How to Setup, Synchronize and Run Programs in Remote Nodes*
  
 ** Sunday, Aug.17:
 *** 11:00 Session 8: System Administration
 - Speaker: Ufuk Baler
-- Title: Setting up a Mail Server in Linux
+- Title: *Setting up a Mail Server in Linux*
 
 *** 14:00 Closing Session
 - Speaker: Fethi Okyar
