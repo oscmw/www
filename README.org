@@ -11,13 +11,12 @@
 
 * Highlights:
 ** Shahin Eskandari, PhD (Montreal, QC):
+- Title: Couple-Stress Theory for Materials with Microstructures
 #+ATTR_HTML: :width 100px
 [[./visuals/2025/passport_se.jpg]]
 
 ** Prof. Tahsin Khajah (Tyler, TX)
-- Topic: Comparing Taylor and Pade approximations for ultrasound imagining of biological media.
-- Video Call Link: https://meet.gogle.com/sxr-uuon-kiu
-- Twitch Live Link: 
+- Title: Comparing Taylor and Pade approximations for ultrasound imagining of biological media
 
 #+ATTR_HTML: :width 100px
 [[./visuals/2025/passport_tk.jpeg]]
