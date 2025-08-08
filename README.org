@@ -15,17 +15,19 @@ Live stream: https://www.twitch.tv/oscmw_ (will be limited to some sessions only
 
 * Highlights:
 ** Shahin Eskandari, PhD (Montreal, QC):
-- Title: Couple-Stress Theory for Materials with Microstructures
+- Couple-Stress Theory for Materials with Microstructures
 #+ATTR_HTML: :width 100px
 [[./visuals/2025/passport_se.jpg]]
 
 ** Prof. Tahsin Khajah (Tyler, TX)
-- Title: Comparing Taylor and Pade approximations for ultrasound imagining of biological media
+- Comparing Taylor and Pade approximations for ultrasound imagining of biological media
 
 #+ATTR_HTML: :width 100px
 [[./visuals/2025/passport_tk.jpeg]]
 
-** Prof. Emek Abali (Uppsala, SK)
+** [[https://bilenemek.abali.org/][Prof. Emek Abali]] (Uppsala, SK)
+- [[https://link.springer.com/book/10.1007/978-981-10-2444-3][Computational Reality]]
+
 #+ATTR_HTML: :width 100px
 [[./visuals/2025/passport_bea.webp]]
 
@@ -52,10 +54,9 @@ Live stream: https://www.twitch.tv/oscmw_ (will be limited to some sessions only
 - Title: *Computing Acoustic Scattering from 2D Irregular Closed Shapes*
 - Online participation available via the link provided above.
 
-*** 14:00 Session 3: Industry Focus 
-- Speakers: Akyildiz, MO and Alkasi, IK
-- Title: *Computing Resonance Frequencies of Langevin Transducers*
-- Guest: Aydin Karaali
+*** 14:00 Session 3: Research Topic 
+- Speaker: Mete Öğüç
+- Title: *Acoustic Metamaterials, Phononic Crsytal and their Biomedical Applications*
 - Online participation available via the link provided above.
 
 *** 21:30 Session 4: Seminar
@@ -65,30 +66,35 @@ Live stream: https://www.twitch.tv/oscmw_ (will be limited to some sessions only
 - Video-streaming over twitch will be available for this event.
 
 ** Saturday, Aug.16:
-*** 11:00 Session 5: Research Topic
-- Speaker: Mete Öğüç
-- Title: *Acoustic Metamaterials, Phononic Crsytal and their Biomedical Applications*
+*** 11:00 Session 5: Industry Focus
+- Speakers: Akyildiz, MO and Alkasi, IK
+- Title: *Computing Resonance Frequencies of Langevin Transducers*
+- Guest: Aydin Karaali
 - Online participation available via the link provided above.
 
 *** 16:00 Session 6: Seminar
 - Speaker: Bilen Emek Abali
-- Title: 
+- Title: *Topics from Computational Reality*
 - Online participation available via the link provided above.
 - Video-streaming over twitch will be available for this event.
 
-*** 21:30 Session 7: Working on a Remote Computational Node
+*** 21:30 Session 7: Workshop
 - Speaker: Neşet Biçkin
-- Title: *How to Setup, Synchronize and Run Programs in Remote Nodes*
+- Title: *Working on a Remote Computational Node*
+  - How to Setup, Synchronize and Run Programs in Remote Nodes
  
 ** Sunday, Aug.17:
-*** 11:00 Session 8: System Administration
+*** 11:00 Session 8: Workshop
 - Speaker: Ufuk Baler
-- Title: *Setting up a Mail Server in Linux*
+- Title: *System Administration*
+  - Setting up a Mail Server in Linux
+  - Using emacs and org-reveal
+  - Github workflows (autograding),
 
 *** 14:00 Closing Session
 - Speaker: Fethi Okyar
 
-*** 19:00 Dinner at Lunapark
+*** 19:00 Dinner
 * Campers:
 - Mete Öğüç (Ph.D.,2023)
 - Volkan Karadağ (Ph.D.,2024)
@@ -97,6 +103,7 @@ Live stream: https://www.twitch.tv/oscmw_ (will be limited to some sessions only
 - Kerem Aydınlı (B.Sc.,2026)
 - Eren Kabarık (B.Sc., 2027)
 - Maya Çoban (B.Sc.,2028)
+- Baran Polat (B.Sc.,2028)
 - İlker Alkaşi (B.Sc.,2025)
 - Ozan Akyıldız (B.Sc.,2025)
 - Ege Yetkin
