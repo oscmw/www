@@ -7,6 +7,9 @@
 #+ATTR_HTML: :style margin-left: auto; margin-right: auto;
 #+HTML_HEAD: <meta name="referrer" content="no-referrer">
 
+#+ATTR_HTML: :width 100px
+[[./visuals/2025/95773199.png]]
+
 *Management:* Fethi Okyar and Neşet Biçkin
 
 Meeting Link: https://meet.jit.si/oscmw-2025
@@ -20,7 +23,7 @@ Live stream: https://www.twitch.tv/oscmw_ (will be limited to some sessions only
 [[./visuals/2025/passport_se.jpg]]
 
 ** Prof. Tahsin Khajah (Tyler, TX)
-- Comparing Taylor and Pade approximations for ultrasound imagining of biological media
+- Comparing Taylor and Pade Approximations for Ultrasound Imagining of Biological Media
 
 #+ATTR_HTML: :width 100px
 [[./visuals/2025/passport_tk.jpeg]]
@@ -56,12 +59,12 @@ Live stream: https://www.twitch.tv/oscmw_ (will be limited to some sessions only
 
 *** 14:00 Session 3: Research Topic 
 - Speaker: Mete Öğüç
-- Title: *Acoustic Metamaterials, Phononic Crsytal and their Biomedical Applications*
+- Title: *Acoustic Metamaterials, Phononic Crsytals and their Biomedical Applications*
 - Online participation available via the link provided above.
 
 *** 21:30 Session 4: Seminar
 - Speaker: Tahsin Khajah
-- Title: *Comparing Taylor and Pade approximations for ultrasound imagining of biological media*
+- Title: *Comparing Taylor and Pade Approximations for Ultrasound Imagining of Biological Media*
 - Online participation available via the link provided above.
 - Video-streaming over twitch will be available for this event.
 
