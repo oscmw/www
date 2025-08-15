@@ -23,7 +23,7 @@ Live stream: https://www.twitch.tv/oscmw_ (will be limited to some sessions only
 [[./visuals/2025/passport_se.jpg]]
 
 ** Prof. Tahsin Khajah (Tyler, TX)
-- Comparing Taylor and Pade Approximations for Ultrasound Imagining of Biological Media
+- Comparing Taylor and Pade Approximations for Ultrasound Imaging of Biological Media
 
 #+ATTR_HTML: :width 100px
 [[./visuals/2025/passport_tk.jpeg]]
@@ -50,7 +50,7 @@ Live stream: https://www.twitch.tv/oscmw_ (will be limited to some sessions only
 - Speaker: Shahin Eskandari
 - Title: *Couple-Stress Theory for Materials with Microstructures*
 - Online participation available via the link provided above.
-- Video-streaming over twitch will be available for this event.
+- Twitch livestream available.
 
 ** Friday, Aug.15:
 *** 11:00 Session 2: Research Topic
@@ -60,14 +60,14 @@ Live stream: https://www.twitch.tv/oscmw_ (will be limited to some sessions only
 
 *** 14:00 Session 3: Research Topic 
 - Speaker: Mete Öğüç
-- Title: *Acoustic Metamaterials, Phononic Crsytals and their Biomedical Applications*
+- Title: *Acoustic Metamaterials, Phononic Crystals and their Biomedical Applications*
 - Online participation available via the link provided above.
 
 *** 21:30 Session 4: Seminar
 - Speaker: Tahsin Khajah
-- Title: *Comparing Taylor and Pade Approximations for Ultrasound Imagining of Biological Media*
+- Title: *Comparing Taylor and Pade Approximations for Ultrasound Imaging of Biological Media*
 - Online participation available via the link provided above.
-- Video-streaming over twitch will be available for this event.
+- Twitch livestream available.
 
 ** Saturday, Aug.16:
 *** 11:00 Session 5: Industry Focus
@@ -80,7 +80,7 @@ Live stream: https://www.twitch.tv/oscmw_ (will be limited to some sessions only
 - Speaker: Bilen Emek Abali
 - Title: Deformation in batteries during charging and discharging
 - Online participation available via the link provided above.
-- Video-streaming over twitch will be available for this event.
+- Twitch livestream available.
 
 *** 21:30 Session 7: Workshop
 - Speaker: Neşet Biçkin
