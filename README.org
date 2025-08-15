@@ -29,6 +29,7 @@ Live stream: https://www.twitch.tv/oscmw_ (will be limited to some sessions only
 [[./visuals/2025/passport_tk.jpeg]]
 
 ** [[https://bilenemek.abali.org/][Prof. Emek Abali]] (Uppsala, SK)
+- Deformation in batteries during charging and discharging
 - [[https://link.springer.com/book/10.1007/978-981-10-2444-3][Computational Reality]]
 
 #+ATTR_HTML: :width 100px
@@ -77,7 +78,7 @@ Live stream: https://www.twitch.tv/oscmw_ (will be limited to some sessions only
 
 *** 16:00 Session 6: Seminar
 - Speaker: Bilen Emek Abali
-- Title: *Topics from Computational Reality*
+- Title: Deformation in batteries during charging and discharging
 - Online participation available via the link provided above.
 - Video-streaming over twitch will be available for this event.
 
