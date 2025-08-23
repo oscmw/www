@@ -1,6 +1,5 @@
 #+AUTHOR: Ufuk Tan Baler
-#+TITLE: Session 8
-#+SUBTITLE: A Somewhat Basic Tutorial on Setting a Web and Email Server
+#+TITLE: Session 8: A Somewhat Basic Tutorial on Setting a Web and Email Server
 
 
 * Warning!!!

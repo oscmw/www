@@ -3,10 +3,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2025-08-23 Sat 12:43 -->
+<!-- 2025-08-23 Sat 12:49 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Session 8</title>
+<title>Session 8: A Somewhat Basic Tutorial on Setting a Web and Email Server</title>
 <meta name="author" content="Ufuk Tan Baler" />
 <meta name="generator" content="Org Mode" />
 <style type="text/css">
@@ -196,57 +196,54 @@
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">Session 8
-<br />
-<span class="subtitle">A Somewhat Basic Tutorial on Setting a Web and Email Server</span>
-</h1>
+<h1 class="title">Session 8: A Somewhat Basic Tutorial on Setting a Web and Email Server</h1>
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org860a8a1">1. Warning!!!</a></li>
-<li><a href="#org101551d">2. For the reader</a></li>
-<li><a href="#org1ae7a74">3. Get a domain name</a></li>
-<li><a href="#org4f8b15a">4. Find a machine</a></li>
-<li><a href="#org494944a">5. Set DNS host records (epik)</a></li>
-<li><a href="#orgf2f4ebf">6. ssh into <code>root@---.net</code></a></li>
-<li><a href="#org5ecb9ec">7. Preliminaries</a></li>
-<li><a href="#orgd39b4d8">8. Reverse DNS record (vultr)</a></li>
-<li><a href="#orgb7bca46">9. Installation of packages</a></li>
-<li><a href="#orgcd675d3">10. Configuration</a></li>
-<li><a href="#org4ccd1c6">11. Getting https</a></li>
-<li><a href="#org2626b22">12. Setting up the mail server</a></li>
-<li><a href="#org919a3ff">13. Putting text records</a></li>
-<li><a href="#org90594a0">14. Add user</a></li>
+<li><a href="#org04a388b">1. Warning!!!</a></li>
+<li><a href="#orge02388e">2. For the reader</a></li>
+<li><a href="#org08e99c0">3. Get a domain name</a></li>
+<li><a href="#org3f7c236">4. Find a machine</a></li>
+<li><a href="#orgf14b73b">5. Set DNS host records (epik)</a></li>
+<li><a href="#orgf1b9381">6. ssh into <code>root@---.net</code></a></li>
+<li><a href="#orge230093">7. Preliminaries</a></li>
+<li><a href="#orgb25a086">8. Reverse DNS record (vultr)</a></li>
+<li><a href="#org783f5dd">9. Installation of packages</a></li>
+<li><a href="#org5a2b555">10. Configuration</a></li>
+<li><a href="#orgf5fbdd5">11. Getting https</a></li>
+<li><a href="#org9ac6bfb">12. Setting up the mail server</a></li>
+<li><a href="#org950bd5e">13. Putting text records</a></li>
+<li><a href="#orgb020cf6">14. Add user</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org860a8a1" class="outline-2">
-<h2 id="org860a8a1"><span class="section-number-2">1.</span> Warning!!!</h2>
+<div id="outline-container-org04a388b" class="outline-2">
+<h2 id="org04a388b"><span class="section-number-2">1.</span> Warning!!!</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 Original tutorial is <a href="https://www.youtube.com/watch?v=3dIVesHEAzc">https://www.youtube.com/watch?v=3dIVesHEAzc</a>. All the content here is all written notes based on the link given. This written tutorial has no responsibility of any damage, and risk. Use it with your own responsibility.
 </p>
 </div>
 </div>
-<div id="outline-container-org101551d" class="outline-2">
-<h2 id="org101551d"><span class="section-number-2">2.</span> For the reader</h2>
+<div id="outline-container-orge02388e" class="outline-2">
+<h2 id="orge02388e"><span class="section-number-2">2.</span> For the reader</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 For example if your domain is <code>dummy.net</code>, replace <code>---</code> or <code>landchad</code> with <code>dummy</code> in all examples.
 </p>
 </div>
 </div>
-<div id="outline-container-org1ae7a74" class="outline-2">
-<h2 id="org1ae7a74"><span class="section-number-2">3.</span> Get a domain name</h2>
+<div id="outline-container-org08e99c0" class="outline-2">
+<h2 id="org08e99c0"><span class="section-number-2">3.</span> Get a domain name</h2>
 <div class="outline-text-2" id="text-3">
 <ul class="org-ul">
 <li>epik</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org4f8b15a" class="outline-2">
-<h2 id="org4f8b15a"><span class="section-number-2">4.</span> Find a machine</h2>
+<div id="outline-container-org3f7c236" class="outline-2">
+<h2 id="org3f7c236"><span class="section-number-2">4.</span> Find a machine</h2>
 <div class="outline-text-2" id="text-4">
 <ul class="org-ul">
 <li>vultr
@@ -257,8 +254,8 @@ For example if your domain is <code>dummy.net</code>, replace <code>---</code> o
 </ul>
 </div>
 </div>
-<div id="outline-container-org494944a" class="outline-2">
-<h2 id="org494944a"><span class="section-number-2">5.</span> Set DNS host records (epik)</h2>
+<div id="outline-container-orgf14b73b" class="outline-2">
+<h2 id="orgf14b73b"><span class="section-number-2">5.</span> Set DNS host records (epik)</h2>
 <div class="outline-text-2" id="text-5">
 <ul class="org-ul">
 <li>copy the IP address from vultr</li>
@@ -290,8 +287,8 @@ Note: TTL is kept 300
 </p>
 </div>
 </div>
-<div id="outline-container-orgf2f4ebf" class="outline-2">
-<h2 id="orgf2f4ebf"><span class="section-number-2">6.</span> ssh into <code>root@---.net</code></h2>
+<div id="outline-container-orgf1b9381" class="outline-2">
+<h2 id="orgf1b9381"><span class="section-number-2">6.</span> ssh into <code>root@---.net</code></h2>
 <div class="outline-text-2" id="text-6">
 <ul class="org-ul">
 <li>they give you a password</li>
@@ -315,8 +312,8 @@ disable password login:
 </ul>
 </div>
 </div>
-<div id="outline-container-org5ecb9ec" class="outline-2">
-<h2 id="org5ecb9ec"><span class="section-number-2">7.</span> Preliminaries</h2>
+<div id="outline-container-orge230093" class="outline-2">
+<h2 id="orge230093"><span class="section-number-2">7.</span> Preliminaries</h2>
 <div class="outline-text-2" id="text-7">
 <ul class="org-ul">
 <li>apt update</li>
@@ -325,8 +322,8 @@ disable password login:
 </ul>
 </div>
 </div>
-<div id="outline-container-orgd39b4d8" class="outline-2">
-<h2 id="orgd39b4d8"><span class="section-number-2">8.</span> Reverse DNS record (vultr)</h2>
+<div id="outline-container-orgb25a086" class="outline-2">
+<h2 id="orgb25a086"><span class="section-number-2">8.</span> Reverse DNS record (vultr)</h2>
 <div class="outline-text-2" id="text-8">
 <ul class="org-ul">
 <li>go to the server's settings</li>
@@ -335,8 +332,8 @@ disable password login:
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb7bca46" class="outline-2">
-<h2 id="orgb7bca46"><span class="section-number-2">9.</span> Installation of packages</h2>
+<div id="outline-container-org783f5dd" class="outline-2">
+<h2 id="org783f5dd"><span class="section-number-2">9.</span> Installation of packages</h2>
 <div class="outline-text-2" id="text-9">
 <p>
 Install
@@ -348,8 +345,8 @@ Install
 </ul>
 </div>
 </div>
-<div id="outline-container-orgcd675d3" class="outline-2">
-<h2 id="orgcd675d3"><span class="section-number-2">10.</span> Configuration</h2>
+<div id="outline-container-org5a2b555" class="outline-2">
+<h2 id="org5a2b555"><span class="section-number-2">10.</span> Configuration</h2>
 <div class="outline-text-2" id="text-10">
 <p>
 Let's first configure nginx of the website
@@ -440,8 +437,8 @@ Create an html file for the website: /var/www/landchad/index.html
 </div>
 </div>
 </div>
-<div id="outline-container-org4ccd1c6" class="outline-2">
-<h2 id="org4ccd1c6"><span class="section-number-2">11.</span> Getting https</h2>
+<div id="outline-container-orgf5fbdd5" class="outline-2">
+<h2 id="orgf5fbdd5"><span class="section-number-2">11.</span> Getting https</h2>
 <div class="outline-text-2" id="text-11">
 <div class="org-src-container">
 <pre class="src src-bash">cerbot --nginx
@@ -457,8 +454,8 @@ Redirect sites by pressing 2.
 </p>
 </div>
 </div>
-<div id="outline-container-org2626b22" class="outline-2">
-<h2 id="org2626b22"><span class="section-number-2">12.</span> Setting up the mail server</h2>
+<div id="outline-container-org9ac6bfb" class="outline-2">
+<h2 id="org9ac6bfb"><span class="section-number-2">12.</span> Setting up the mail server</h2>
 <div class="outline-text-2" id="text-12">
 <p>
 Download a script by
@@ -482,8 +479,8 @@ It sets up postfix dovecot server spam-assasin
 </ul>
 </div>
 </div>
-<div id="outline-container-org919a3ff" class="outline-2">
-<h2 id="org919a3ff"><span class="section-number-2">13.</span> Putting text records</h2>
+<div id="outline-container-org950bd5e" class="outline-2">
+<h2 id="org950bd5e"><span class="section-number-2">13.</span> Putting text records</h2>
 <div class="outline-text-2" id="text-13">
 <ul class="org-ul">
 <li>Go to epik dns records -&gt; TXT Records (TXT)</li>
@@ -507,8 +504,8 @@ Note:
 </ul>
 </div>
 </div>
-<div id="outline-container-org90594a0" class="outline-2">
-<h2 id="org90594a0"><span class="section-number-2">14.</span> Add user</h2>
+<div id="outline-container-orgb020cf6" class="outline-2">
+<h2 id="orgb020cf6"><span class="section-number-2">14.</span> Add user</h2>
 <div class="outline-text-2" id="text-14">
 <p>
 Here we added a user called <code>chad</code>. It is the username that you choose. Basically, when you email <code>chad</code>, you would type <code>chad@landchad.net</code>.
@@ -523,7 +520,7 @@ passwd chad
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Ufuk Tan Baler</p>
-<p class="date">Created: 2025-08-23 Sat 12:43</p>
+<p class="date">Created: 2025-08-23 Sat 12:49</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
