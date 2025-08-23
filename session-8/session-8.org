@@ -1,0 +1,172 @@
+#+AUTHOR: Ufuk Tan Baler
+#+TITLE: Session 8
+#+SUBTITLE: A Somewhat Basic Tutorial on Setting a Web and Email Server
+
+
+* Warning!!!
+Original tutorial is https://www.youtube.com/watch?v=3dIVesHEAzc. All the content here is all written notes based on the link given. This written tutorial has no responsibility of any damage, and risk. Use it with your own responsibility.
+* For the reader
+For example if your domain is ~dummy.net~, replace ~---~ or ~landchad~ with ~dummy~ in all examples.
+* Get a domain name
+- epik
+* Find a machine
+- vultr
+  + enable IPv6
+  + server hostname & label: ~---.net~ (obtained from epik)
+
+* Set DNS host records (epik)
+- copy the IP address from vultr
+- go to External Hosts (A, AAAA) records
+- delete all stuff there
+- add a record
+  + leave Host blank, paste the IP address in Points to    
+- add a record
+  + put www in Host, paste the IP address in Points to    
+- add a record
+  + put * in Host, paste the IP address in Points to
+- go to the server's settings on vultr find IPv6 address
+- add three IPv6 records, and do the same thing before
+- go to the Email Services (MX)
+- add a record
+  + Priority: 10, Host: blank, Points to: ~mail.---.net.~
+- save it  
+Note: TTL is kept 300
+
+* ssh into ~root@---.net~
+- they give you a password
+- ~gpg --full-gen-key~ to generate a key
+- ~ssh-copy-id root@---.net~ to copy the generated key to the server
+then connect to the server using the gpg key.
+
+disable password login:
+- edit ~/etc/ssh/sshd_config~
+  + make ~UsePAM no~
+  + make ~PasswordAuthentication no~
+- systemctl reload sshd      
+
+* Preliminaries
+- apt update
+- apt upgrade
+- edit .bashrc if you want    
+    
+* Reverse DNS record (vultr)
+- go to the server's settings
+- go to IPv6
+- copy the IPv6 address and put it into an empty record then type ~---.net~, then add    
+* Installation of packages
+Install
+- nginx
+- python-certbot-nginx (it gives https)
+- rsync
+
+* Configuration
+Let's first configure nginx of the website
+#+BEGIN_SRC bash
+cp /etc/nginx/sites-available/default /etc/nginx/sites-available/landchad # web site
+#+END_SRC
+
+Edit ~/etc/nginx/sites-available/landchad~
+- comments can be deleted if you want
+
+#+BEGIN_SRC bash
+server {
+    listen 80;
+    listen [::]:80;
+
+    root /var/www/landchad;
+
+    index index.html index.htm index.nginx-debian.html;
+
+    server_name landchad.net www.landchad.net;
+
+    location / {
+	try_files $uri $uri/ =404;
+    }
+}
+#+END_SRC
+
+Let's configure nginx of the mail
+#+BEGIN_SRC bash
+cp /etc/nginx/sites-available/landchad /etc/nginx/sites-available/mail # mail site
+#+END_SRC
+
+Edit ~/etc/nginx/sites-available/mail~
+
+#+BEGIN_SRC bash
+server {
+    listen 80;
+    listen [::]:80;
+
+    root /var/www/mail;
+
+    index index.html index.htm index.nginx-debian.html;
+
+    server_name mail.landchad.net www.mail.landchad.net;
+
+    location / {
+	try_files $uri $uri/ =404;
+    }
+}
+#+END_SRC
+
+Enable (activate) the sites by symbolic linking
+#+BEGIN_SRC bash
+ln -s /etc/nginx/sites-available/landchad /etc/nginx/sites-enabled/
+ln -s /etc/nginx/sites-available/mail /etc/nginx/sites-enabled/
+#+END_SRC
+
+Refresh nginx
+#+BEGIN_SRC bash
+systemctl reload nginx
+#+END_SRC
+
+Create an html file for the website: /var/www/landchad/index.html
+#+BEGIN_SRC bash
+<h1>This is a landchad site~</h1>
+#+END_SRC
+
+* Getting https
+#+BEGIN_SRC bash
+cerbot --nginx
+#+END_SRC
+
+Press enter to https all the given stuff.
+
+Redirect sites by pressing 2.
+
+* Setting up the mail server
+Download a script by
+#+BEGIN_SRC bash
+curl -LO lukesmith.xyz/emailwiz.sh
+#+END_SRC
+
+It sets up postfix dovecot server spam-assasin
++ postfix: sends the email
+  - System mail name: landchad.net
++ dovecot: downloads the email    
++ spam-assasin: blocks spams
++ dkim: service for validating the emails for sending emails to google etc.
+
+* Putting text records
+- Go to epik dns records -> TXT Records (TXT)
+- add a record
+- Host is @      
+- open ~~/dns_emailwizard~
+- copy ~v=spf1 mx ... -all~ paste it into TXT Value
+- add a record
+- Host is ~_dmarc~
+- copy ~v=DMARC1; ... fo=1~ paste it into TXT Value
+- add a record
+- Host is ~mail._domainkey~
+- copy ~v=DKIM1; ...~ paste it into TXT Value
+Note:
+- Priority is 0, TTL is 300 for all the records.
+- ~...~'s are actual texts written in ~~/dns_emailwizard~.
+
+
+* Add user
+Here we added a user called ~chad~. It is the username that you choose. Basically, when you email ~chad~, you would type ~chad@landchad.net~.
+#+BEGIN_SRC bash
+useradd -G mail -m chad
+passwd chad
+#+END_SRC
