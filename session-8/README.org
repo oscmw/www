@@ -1,19 +1,145 @@
 #+AUTHOR: Ufuk Tan Baler
-#+TITLE: Session 8: A Somewhat Basic Tutorial on Setting a Web and Email Server
+#+TITLE: Session 8: Notes on Local AI Code Assistance and Selfhosting an Email Server
 
+* Integrating a Local AI Model in VSCode
+** Preliminaries
+Install the below packages
+- VSCode
+- docker
+- twinny extension
 
-* Warning!!!
+Docker containers are similar to virtual machines, but lighter on system resources, and specifically provide the dependencies for the distributed software. Ollama server is the software we are going to use inside a container.
+
+Before running a container, it is feasible to create a shared folder in the host's filesystem. The shared folder enables us to link the host's and container's filesystems over itself. So, we could exchange model files with the container.
+
+Let's create a shared folder,
+#+BEGIN_SRC bash
+mkdir ~/models
+#+END_SRC
+
+** Running the Ollama Server
+We need to run the docker container in the background. For once execute the command below,
+#+BEGIN_SRC bash
+sudo docker run -d -v ~/models:/root/models -p 11434:11434 --name oscmw-ollama ollama/ollama
+#+END_SRC
+where
+- ~-d~: runs the container in background and print the container ID
+- ~-v~: binds mount the volume
+- ~-p~: publishes the container's port to the host
+- ~--name~: assigns the name to the container
+- ~ollama/ollama~: the image name
+
+If ~ollama/ollama~ image hasn't been downloaded before, it will be downloaded.
+
+Now, we can check running containers by
+#+BEGIN_SRC bash
+sudo docker ps -a
+#+END_SRC
+
+We should see something like this,
+#+BEGIN_SRC text
+CONTAINER ID   IMAGE           COMMAND               CREATED         STATUS                  PORTS                                             NAMES
+58c9cf508d0d   ollama/ollama   "/bin/ollama serve"   2 minutes ago   Up 2 minutes            0.0.0.0:11434->11434/tcp, [::]:11434->11434/tcp   oscmw-ollama
+#+END_SRC
+The container has been successfully up and running about two minutes. Notice the ~COMMAND~ column where it says ~"/bin/ollama serve"~. The container is actually default to running ollama in the serve (server) mode. Therefore, ollama server is running, and can be accessed through the port.
+
+In order to download LLM models using ollama binaries, we need to access the shell of the container. Let's issue the command in host machine,
+#+BEGIN_SRC bash
+sudo docker exec -it oscmw-ollama /bin/bash
+#+END_SRC
+which executes ~/bin/bash~ program inside the container, and the result should be a shell prompt where we are seen as the root user,
+#+BEGIN_SRC bash
+root@58c9cf508d0d:/#
+#+END_SRC
+
+If we go to ~/root~ (models), the shared folder can be seen in the container,
+#+BEGIN_SRC bash
+root@58c9cf508d0d:/# cd /root/
+root@58c9cf508d0d:~# ll
+total 8
+drwx------ 1 root   root     72 Sep 14 11:15 ./
+drwxr-xr-x 1 root   root      8 Sep 14 11:15 ../
+-rw-r--r-- 1 root   root   3106 Apr 22  2024 .bashrc
+drwxr-xr-x 1 root   root     60 Sep 14 11:15 .ollama/
+-rw-r--r-- 1 root   root    161 Apr 22  2024 .profile
+drwxr-xr-x 1 ubuntu ubuntu    0 Sep 14 10:17 models/
+#+END_SRC
+
+Now, we need specifically chat, and FIM (fill-in-the-middle) capable models which are going to be run in the server. https://ollama.com/search helps us to browse the models. In this tutorial we could consider 7-billion parameter codellama models. They are
+- codellama:7b
+- codellama:7b-code
+which are used for chat, and FIM, respectively.
+
+We pull the models one by one (wait for the first pull to finish then pull the other model),
+#+BEGIN_SRC bash
+root@58c9cf508d0d:~# ollama pull codellama:7b-code
+root@58c9cf508d0d:~# ollama pull codellama:7b
+#+END_SRC
+
+We check the downloaded models,
+#+BEGIN_SRC text
+root@58c9cf508d0d:~# ollama list
+NAME                 ID              SIZE      MODIFIED
+codellama:7b-code    8df0a30bb1e6    3.8 GB    9 days ago
+codellama:7b         8fdf8f752f6e    3.8 GB    9 days ago
+#+END_SRC
+
+** Editor Setup
+Install twinny in VSCode extensions,
+#+ATTR_HTML: :width 500px
+[[./twinny-extension.png]]
+
+Once it is installed let's click on the robot head in twinny's dash. We will add new providers such that it will look like this,
+#+ATTR_HTML: :width 300px
+[[./twinny-providers.png]]
+
+The configurations for chat, and fim providers are shown, respectively,
+#+ATTR_HTML: :width 300px
+[[./twinny-ollama-chat.png]]
+#+ATTR_HTML: :width 300px
+[[./twinny-ollama-fim.png]]
+
+Restart VSCode and open a test file called ~fim_test.py~. Write a simple problem definition as a comment,
+#+ATTR_HTML: :width 600px
+[[./fim-test.png]]
+
+Type something in the chat window as well,
+#+ATTR_HTML: :width 300px
+[[./chat-test.png]]
+
+It works!
+
+** Tips
+** Converting GGUF Files to Ollama Models
+The local GGUF file should be moved to the shared folder first. Then, follow https://github.com/ollama/ollama#import-from-gguf.
+
+Note that the ~Modelfile~ should be created inside the shared folder.
+
+** Model Memory Timeout
+Search for Twinny: Keep Alive in VSCode settings. You may change it according to your preference.
+
+** Toggle Completion
+You might use ~Alt+\~ combination to send your FIM request to the server. Uncheck Twinny: Auto Suggest Enabled in VSCode settings.
+
+** Resources
+1. https://github.com/ollama/ollama
+2. https://ollama.com/
+3. https://github.com/twinnydotdev/twinny
+4. https://twinnydotdev.github.io/twinny-docs/
+
+* A Somewhat Basic Tutorial on Setting up a Web and Email Server
+** Warning!!!
 Original tutorial is https://www.youtube.com/watch?v=3dIVesHEAzc. All the content here is all written notes based on the link given. This written tutorial has no responsibility of any damage, and risk. Use it with your own responsibility.
-* For the reader
+** For the reader
 For example if your domain is ~dummy.net~, replace ~---~ or ~landchad~ with ~dummy~ in all examples.
-* Get a domain name
+** Get a domain name
 - epik
-* Find a machine
+** Find a machine
 - vultr
   + enable IPv6
   + server hostname & label: ~---.net~ (obtained from epik)
 
-* Set DNS host records (epik)
+** Set DNS host records (epik)
 - copy the IP address from vultr
 - go to External Hosts (A, AAAA) records
 - delete all stuff there
@@ -31,7 +157,7 @@ For example if your domain is ~dummy.net~, replace ~---~ or ~landchad~ with ~dum
 - save it  
 Note: TTL is kept 300
 
-* ssh into ~root@---.net~
+** ssh into ~root@---.net~
 - they give you a password
 - ~gpg --full-gen-key~ to generate a key
 - ~ssh-copy-id root@---.net~ to copy the generated key to the server
@@ -43,22 +169,22 @@ disable password login:
   + make ~PasswordAuthentication no~
 - systemctl reload sshd      
 
-* Preliminaries
+** Preliminaries
 - apt update
 - apt upgrade
 - edit .bashrc if you want    
     
-* Reverse DNS record (vultr)
+** Reverse DNS record (vultr)
 - go to the server's settings
 - go to IPv6
 - copy the IPv6 address and put it into an empty record then type ~---.net~, then add    
-* Installation of packages
+** Installation of packages
 Install
 - nginx
 - python-certbot-nginx (it gives https)
 - rsync
 
-* Configuration
+** Configuration
 Let's first configure nginx of the website
 #+BEGIN_SRC bash
 cp /etc/nginx/sites-available/default /etc/nginx/sites-available/landchad # web site
@@ -124,7 +250,7 @@ Create an html file for the website: /var/www/landchad/index.html
 <h1>This is a landchad site~</h1>
 #+END_SRC
 
-* Getting https
+** Getting https
 #+BEGIN_SRC bash
 cerbot --nginx
 #+END_SRC
@@ -133,7 +259,7 @@ Press enter to https all the given stuff.
 
 Redirect sites by pressing 2.
 
-* Setting up the mail server
+** Setting up the mail server
 Download a script by
 #+BEGIN_SRC bash
 curl -LO lukesmith.xyz/emailwiz.sh
@@ -146,7 +272,7 @@ It sets up postfix dovecot server spam-assasin
 + spam-assasin: blocks spams
 + dkim: service for validating the emails for sending emails to google etc.
 
-* Putting text records
+** Putting text records
 - Go to epik dns records -> TXT Records (TXT)
 - add a record
 - Host is @      
@@ -162,8 +288,7 @@ Note:
 - Priority is 0, TTL is 300 for all the records.
 - ~...~'s are actual texts written in ~~/dns_emailwizard~.
 
-
-* Add user
+** Add user
 Here we added a user called ~chad~. It is the username that you choose. Basically, when you email ~chad~, you would type ~chad@landchad.net~.
 #+BEGIN_SRC bash
 useradd -G mail -m chad
