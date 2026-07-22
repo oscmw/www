@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en/tr" xml:lang="en/tr">
+<head>
+<!-- 2025-08-18 Mon 14:54 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>6th Open-Source Computational Mechanics and Acoustics Workshop and Summer Camp</title>
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<meta name="referrer" content="no-referrer">
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">6th Open-Source Computational Mechanics and Acoustics Workshop and Summer Camp
+<br />
+<span class="subtitle">Program</span>
+</h1>
+
+<div id="orgafa5949" class="figure">
+<p><img src="./visuals/2025/95773199.png" alt="95773199.png" width="100px" />
+</p>
+</div>
+
+<p>
+<b>Management:</b> Fethi Okyar and Neşet Biçkin
+</p>
+
+<p>
+Meeting Link: <a href="https://meet.jit.si/oscmw-2025">https://meet.jit.si/oscmw-2025</a>
+</p>
+
+<p>
+Live stream: <a href="https://www.twitch.tv/oscmw">https://www.twitch.tv/oscmw</a>_ (will be limited to some sessions only!)
+</p>
+<div id="outline-container-orgfdb4d1f" class="outline-2">
+<h2 id="orgfdb4d1f">Highlights:</h2>
+<div class="outline-text-2" id="text-orgfdb4d1f">
+</div>
+<div id="outline-container-orgbaebd1e" class="outline-3">
+<h3 id="orgbaebd1e">Shahin Eskandari, PhD (Montreal, QC):</h3>
+<div class="outline-text-3" id="text-orgbaebd1e">
+<ul class="org-ul">
+<li>Couple-Stress Theory for Materials with Microstructures</li>
+</ul>
+
+<div id="org2ec62ce" class="figure">
+<p><img src="./visuals/2025/passport_se.jpg" alt="passport_se.jpg" width="100px" />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org22b9f57" class="outline-3">
+<h3 id="org22b9f57">Prof. Tahsin Khajah (Tyler, TX)</h3>
+<div class="outline-text-3" id="text-org22b9f57">
+<ul class="org-ul">
+<li>Comparing Taylor and Pade Approximations for Ultrasound Imaging of Biological Media</li>
+</ul>
+
+
+<div id="orgbf7bc5f" class="figure">
+<p><img src="./visuals/2025/passport_tk.jpeg" alt="passport_tk.jpeg" width="100px" />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org4d8afdd" class="outline-3">
+<h3 id="org4d8afdd"><a href="https://bilenemek.abali.org/">Prof. Emek Abali</a> (Uppsala, SK)</h3>
+<div class="outline-text-3" id="text-org4d8afdd">
+<ul class="org-ul">
+<li>Deformation in batteries during charging and discharging</li>
+<li><a href="https://link.springer.com/book/10.1007/978-981-10-2444-3">Computational Reality</a></li>
+</ul>
+
+
+<div id="org360b1dc" class="figure">
+<p><img src="./visuals/2025/passport_bea.webp" alt="passport_bea.webp" width="100px" />
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org0ca9e41" class="outline-2">
+<h2 id="org0ca9e41">Workshop Calender:</h2>
+<div class="outline-text-2" id="text-org0ca9e41">
+</div>
+<div id="outline-container-orgc4ad8ac" class="outline-3">
+<h3 id="orgc4ad8ac">Thursday, Aug.14:</h3>
+<div class="outline-text-3" id="text-orgc4ad8ac">
+</div>
+<div id="outline-container-org8ce4a40" class="outline-4">
+<h4 id="org8ce4a40">14:00 Opening Session: Essentials for Beginners</h4>
+<div class="outline-text-4" id="text-org8ce4a40">
+<ul class="org-ul">
+<li>Speaker: Fethi Okyar</li>
+<li>Topics: 
+<ol class="org-ol">
+<li>(linux, console, zsh, ssh, python, emacs, git, latex, bibtex, zotero, etc.)</li>
+<li>accessing our github repo (mekanotrix), the two-factor authentication issue</li>
+</ol></li>
+<li>Cassyni-AIAA Seminar: A database for reduced-complexity modeling of fluid flows</li>
+<li>Speakers: Aaron Towne and Scott Dawson</li>
+<li>Link: <a href="https://cassyni.com/events/M6cA5g1KqrcgQeL228Evuj">https://cassyni.com/events/M6cA5g1KqrcgQeL228Evuj</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org90ceb66" class="outline-4">
+<h4 id="org90ceb66">21:30 Session 1: Seminar</h4>
+<div class="outline-text-4" id="text-org90ceb66">
+<ul class="org-ul">
+<li>Speaker: Shahin Eskandari</li>
+<li>Title: <b>Couple-Stress Theory for Materials with Microstructures</b></li>
+<li>Online participation available via the link provided above.</li>
+<li>Twitch livestream available.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org3d59d3c" class="outline-3">
+<h3 id="org3d59d3c">Friday, Aug.15:</h3>
+<div class="outline-text-3" id="text-org3d59d3c">
+</div>
+<div id="outline-container-org621d3ee" class="outline-4">
+<h4 id="org621d3ee">11:00 Session 2: Research Topic</h4>
+<div class="outline-text-4" id="text-org621d3ee">
+<ul class="org-ul">
+<li>Speaker: Kerem Aydınlı</li>
+<li>Title: <b>Computing Acoustic Scattering from 2D Irregular Closed Shapes</b></li>
+<li>Online participation available via the link provided above.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgbc16396" class="outline-4">
+<h4 id="orgbc16396">14:00 Session 3: Research Topic</h4>
+<div class="outline-text-4" id="text-orgbc16396">
+<ul class="org-ul">
+<li>Speaker: Mete Öğüç</li>
+<li>Title: <b>Acoustic Metamaterials, Phononic Crystals and their Biomedical Applications</b></li>
+<li>Online participation available via the link provided above.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgdbe364e" class="outline-4">
+<h4 id="orgdbe364e">21:30 Session 4: Seminar</h4>
+<div class="outline-text-4" id="text-orgdbe364e">
+<ul class="org-ul">
+<li>Speaker: Tahsin Khajah</li>
+<li>Title: <b>Comparing Taylor and Pade Approximations for Ultrasound Imaging of Biological Media</b></li>
+<li>Online participation available via the link provided above.</li>
+<li>Twitch livestream available.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc2fc197" class="outline-3">
+<h3 id="orgc2fc197">Saturday, Aug.16:</h3>
+<div class="outline-text-3" id="text-orgc2fc197">
+</div>
+<div id="outline-container-orgfaccf9b" class="outline-4">
+<h4 id="orgfaccf9b">11:00 Session 5: Industry Focus</h4>
+<div class="outline-text-4" id="text-orgfaccf9b">
+<ul class="org-ul">
+<li>Speakers: Akyildiz, MO and Alkasi, IK</li>
+<li>Title: <b>Computing Resonance Frequencies of Langevin Transducers</b></li>
+<li>Guest: Aydin Karaali</li>
+<li>Online participation available via the link provided above.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org94b61d6" class="outline-4">
+<h4 id="org94b61d6">16:00 Session 6: Seminar</h4>
+<div class="outline-text-4" id="text-org94b61d6">
+<ul class="org-ul">
+<li>Speaker: Bilen Emek Abali</li>
+<li>Title: Deformation in batteries during charging and discharging</li>
+<li>Online participation available via the link provided above.</li>
+<li>Twitch livestream available.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org7be8113" class="outline-4">
+<h4 id="org7be8113">21:30 Session 7: Workshop</h4>
+<div class="outline-text-4" id="text-org7be8113">
+<ul class="org-ul">
+<li>Speaker: Neşet Biçkin</li>
+<li>Title: <b>Working on a Remote Computational Node</b>
+<ul class="org-ul">
+<li>How to Setup, Synchronize and Run Programs in Remote Nodes</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org53914b8" class="outline-3">
+<h3 id="org53914b8">Sunday, Aug.17:</h3>
+<div class="outline-text-3" id="text-org53914b8">
+</div>
+<div id="outline-container-org208bb17" class="outline-4">
+<h4 id="org208bb17">11:00 Session 8: Workshop</h4>
+<div class="outline-text-4" id="text-org208bb17">
+<ul class="org-ul">
+<li>Speaker: Ufuk Baler</li>
+<li>Title: <b>System Administration</b>
+<ul class="org-ul">
+<li>Setting up a Mail Server in Linux</li>
+<li>Using emacs and org-reveal</li>
+<li>Github workflows (autograding),</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgcb401c0" class="outline-4">
+<h4 id="orgcb401c0">14:00 Closing Session</h4>
+<div class="outline-text-4" id="text-orgcb401c0">
+<ul class="org-ul">
+<li>Speaker: Fethi Okyar</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgdd6dc20" class="outline-4">
+<h4 id="orgdd6dc20">19:00 Dinner</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-org5d2619a" class="outline-2">
+<h2 id="org5d2619a">Campers:</h2>
+<div class="outline-text-2" id="text-org5d2619a">
+<ul class="org-ul">
+<li>Mete Öğüç (Ph.D.,2023)</li>
+<li>Volkan Karadağ (Ph.D.,2024)</li>
+<li>Neşet Biçkin (ME,2025)</li>
+<li>Ufuk Tan Baler (M.Sc.,2023)</li>
+<li>Kerem Aydınlı (B.Sc.,2026)</li>
+<li>Eren Kabarık (B.Sc., 2027)</li>
+<li>Maya Çoban (B.Sc.,2028)</li>
+<li>Baran Polat (B.Sc.,2028)</li>
+<li>Ege Yetkin</li>
+</ul>
+</div>
+<div id="outline-container-orgd409539" class="outline-3">
+<h3 id="orgd409539">OSCMW Alumni:</h3>
+<div class="outline-text-3" id="text-orgd409539">
+<ul class="org-ul">
+<li>Faruk Büyükkaya (M.Sc.,2023)</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc6cba61" class="outline-2">
+<h2 id="orgc6cba61">Camp Instructions:</h2>
+<div class="outline-text-2" id="text-orgc6cba61">
+<ul class="org-ul">
+<li>bisiklet, çadır, çarşaf, terlik, havlu, sinek ilacı, mayo, bilgisayar</li>
+<li>sabahları çay ve poğaça, öğledensonra mangal.</li>
+<li>Gün içerisinde çay-kahve yapılır.</li>
+<li>Tatlı tuzlu, atıştırmalık, meşrubat, ve mangal için alkollü içeceğinizi yanınızda getiriniz.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org97f0644" class="outline-2">
+<h2 id="org97f0644">Promo:</h2>
+<div class="outline-text-2" id="text-org97f0644">
+</div>
+<div id="outline-container-org19aa7f0" class="outline-3">
+<h3 id="org19aa7f0">1st international conference on metamaterials:</h3>
+<div class="outline-text-3" id="text-org19aa7f0">
+<p>
+<a href="https://metamat2026.sciencesconf.org/">https://metamat2026.sciencesconf.org/</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org3556a41" class="outline-3">
+<h3 id="org3556a41">16th national acoustical congress:</h3>
+<div class="outline-text-3" id="text-org3556a41">
+<p>
+<a href="http://takder.org/?page_id=3481&amp;lang=en">http://takder.org/?page_id=3481&amp;lang=en</a>
+</p>
+</div>
+</div>
+<div id="outline-container-orgfbee9f5" class="outline-3">
+<h3 id="orgfbee9f5">Almanya'da sayısal mekanik ile ilgili yüksek lisans fırsatları</h3>
+<div class="outline-text-3" id="text-orgfbee9f5">
+<p>
+Mezunumuz Nedimcan Aytemür tarafından 2023 Kasım ayında derlenmiştir.
+</p>
+</div>
+<div id="outline-container-org0603073" class="outline-4">
+<h4 id="org0603073">Friedrich-Alexander-Universität Erlangen-Nürnberg/Computational Engineering:</h4>
+<div class="outline-text-4" id="text-org0603073">
+<p>
+Kabul aldığım ve başladığım okul ve bölüm. Avantajlarından bahsetmem
+gerekirse eğitim dili İngilizce. İngilizce yeterliliği olarak okuduğumuz
+lisans programının İngilizce dilinde olduğuna dair fakülteden alınan
+belge geçerli oluyor. Böylece hem zor hem de maddi olarak külfetli
+IELTS/TOEFL sınavlarına gerek olmuyor. Ayrıca program, UniAssist gibi
+başvuru kuruluşlarına ihtiyaç olmaksızın direkt başvuru alıyor. Program
+sadece kış dönemlerinde öğrenci alıyor. Kesin bir yargıda bulunmak zor
+ama diğer okullara nazaran kabul oranları daha yüksek sanırım.
+</p>
+
+<p>
+Başka bir avantaj ise, program hesaplamalı mekanik değil, hesaplamalı
+mühendislik adı altında eğitim veriyor. Programda optik, malzeme,
+ısı/akışkan, mekanik/dinamik, mekatronik, IT, otomatik kontrol alt
+dallarından, seçilen branşın eğitimi veriliyor. Yani mekanik/dinamik
+düşünmeyen, başka branşlara ilgi duyan arkadaşlarımızın ilgisini
+çekebilir.
+</p>
+
+<p>
+Ayrıca internette bulunamayan içerden bir bilgi vermem gerek; bu
+programda, bahsedeceğim diğer programların aksine, bölüm derslerine
+nazaran bilgisayar bilimleri ve matematik dersleri de çok yoğun ve zor.
+Bahsedeceğim diğer programlardaki eğitim, bölüm dersleri ağırlıklı iken
+ve genelde birer bilgisayar ve matematik dersleri yeterli olurken, bu
+bölümde en az program dersleri kadar bilgisayar ve matematik dersleri
+almak zorunluluk. Mezuniyet şartı için en az 20 ECTS bilgisayar
+bilimleri, 20 ECTS matematik ve 20 ECTS program dersleri alınmalı, geri
+kalan krediler istenildiği bölümden alınabilir.
+</p>
+
+<p>
+Başka bir konu HPC. Özellikle mekanik/dinamik, ısı/akışkan, optik ve
+malzeme alt alanlarında yüksek başarımlı hesaplamaya yoğun bir ilgi var
+diyebilirim. Yazılan tezlere bakıldığında HPC ile çözümler sıkça
+yapılmış. Öğrenciler okulun süper bilgisayarını istedikleri gibi
+kullanabiliyorlar. Hatta geçen sene iki öğrenci tez yazıyoruz diye coin
+madenciliği yaparken yakalanmış :)) HPC'ye özel olarak ilgi duyan
+arkadaşlar için çok avantajlı ve yerinde bir program.
+</p>
+
+<p>
+Dezavantaj sayılabilecek bir konu ise; transkriptlerinde nesne tabanlı
+programlama, yüksek başarımlı hesaplama, paralel programlama gibi
+dersler bulunmayan öğrencilere bilimsel hazırlık programı verilebiliyor.
+Bu programın adı TSE (Transition Studies Engineering); ilk dönemi online
+ve Türkiye'den takip edilebiliyor, ancak ikinci dönemi yüz yüze.
+Master'a başlayabilmek için, 1 yıl içinde bu program başarıyla
+tamamlanmalı. Yine de başvurmaktan çekinmemeli bu programı düşünen
+arkadaşlar, komite yeterli de görebilir.
+</p>
+
+<p>
+Bütün alt alanlar için konuşmak gerekirse çok fazla çalışma alanı var,
+akla gelecek her alanda çalışma yapılıyor. Gelmeyi düşünecek arkadaşlara
+muhakkak C++ öğrenmelerini, en azından aşina olmalarını tavsiye ederim,
+ben bilmiyordum çok zorlandım.
+</p>
+
+<p>
+Son başvuru tarihi Nisan ayının ikinci haftası oluyor genellikle.
+</p>
+
+<p>
+Web sitesi: <a href="https://www.ce.studium.fau.eu/">https://www.ce.studium.fau.eu/</a>
+</p>
+</div>
+</div>
+<div id="outline-container-orgdf3af93" class="outline-4">
+<h4 id="orgdf3af93">Technische Universität München/CoMe</h4>
+<div class="outline-text-4" id="text-orgdf3af93">
+<p>
+Münih Teknik Ünivertsitesi'nin hesaplamalı mekanik (Computational
+Mechanics) yüksek lisans programı. Bu bölümün eğitim dili de İngilizce,
+keza bu okul da IELTS/TOEFL yerine, lisans eğitiminin İngilizce
+alındığına dair belgeyi dil yeterliliği olarak kabul ediyor. Programa
+direk başvuru yapılamıyor, UniAssist üzerinden başvuru alıyorlar sadece.
+Bu sebeple başvurmayı düşünecek arkadaşlar Ocak ayını geçirmemeli, çünkü
+platformun başvuruları inceleyip tasdiklemesi zaman alıyor. Bu platform
+üzerinden başvurunun ücreti ise yanlış hatırlamıyorsam 75 Euro idi. Hem
+Almanya, hem de dünyada oldukça popüler ve tanınan bir bölüm. Yine
+burada da çok fazla çalışma alanları var.
+</p>
+
+<p>
+Mekanik dışında bölümlerle ilgilenen arkadaşlarımız için "Computational
+Science and Engineering" programı da mevcut, ancak ayrıntılı bilgiye
+sahip değilim malesef.
+</p>
+
+<p>
+Web sayfası:
+<a href="https://www.ed.tum.de/ed/studium/studienangebot/computational-mechanics-m-sc/">https://www.ed.tum.de/ed/studium/studienangebot/computational-mechanics-m-sc/</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org22ea8e5" class="outline-4">
+<h4 id="org22ea8e5">Ruhr-Universität Bochum/CompEng</h4>
+<div class="outline-text-4" id="text-org22ea8e5">
+<p>
+Ruhr-Bochum Üniversitesi'nin hesaplamalı mekanik yüksek lisans programı.
+Eğitim dili İngilizce ve IELTS/TOEFL yerine, lisans programının
+İngilizce alındığına dair belge dil yeterliliği olarak sunulabilir.
+Herhangi bir platform olmadan, program direkt başvuru alıyor. Son
+başvuru tarihi mayıs ayının ortasıydı yanlış hatırlamıyorsam. Çok kesin
+bir ayrım söz konusu olmasa da, bu bölümde yazılan tezlere baktığımda
+daha çok inşaat mühendisliği eğilimliydi diyebilirim.
+</p>
+
+<p>
+Web sayfası: <a href="https://www.compeng.ruhr-uni-bochum.de/">https://www.compeng.ruhr-uni-bochum.de/</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org8d81c12" class="outline-4">
+<h4 id="org8d81c12">Universität Stuttgart/COMMAS</h4>
+<div class="outline-text-4" id="text-org8d81c12">
+<p>
+Stuttgart Üniversitesi'nin hesaplamalı mekanik ve malzeme yüksek lisans
+programı. Eğitim dili İngilizce ancak muhakkak IELTS/TOEFL yeterliliği
+isteniyor dil belgesi için. Bu programın tanınırlığı da Almanya ve
+dünyada çok fazla. Buraya başvuran arkadaşlar için şunu unutmamalı;
+okulun bulunduğu Baden-Württemberg eyaletinde yüksek öğretim kurumları
+üctretli ve dönem başı yaklaşık 1500 Euro, bu da yıllık 3000 Euro demek
+oluyor.
+</p>
+
+<p>
+Web sitesi: <a href="https://www.commas.uni-stuttgart.de/">https://www.commas.uni-stuttgart.de/</a>
+</p>
+
+<p>
+Bütün programlarda, sayısal yöntem olarak en sık FEM tercih ediliyor.
+Genel olaral açık kaynak felsefesi benimseniyor, paket programlar da
+kullanılıyor ama nadiren ve popüler değiller. Bu sebeple, gelecek
+arkadaşlarımızın ileri programlama ve matematik derslerine hazır olması
+gerek. En sık kullanılan dil C++, performans gerektirmeyen çalışmalarda
+Python ve Matlab da tercih edebiliyorlar. Benim Almanca bilgim olmadığı
+için İngilizce eğitim veren programları araştırmıştım, Almanca bilen
+yada öğrenme isteği olan arkadaşlar için seçenekler daha fazla. Ayrıca
+FAU ve TUM için şunu söylemeliyim; Baden-Württemberg de olduğu gibi,
+Bavyera eyaletinde de eğitim harcı alınması gündemde, henüz kesinleşmiş
+değil, ama konuşuluyor.
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Created: 2025-08-18 Mon 14:54</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
