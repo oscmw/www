@@ -15,21 +15,7 @@
 Meeting Link: https://meet.jit.si/oscmw-2026
 
 * Highlights:
-** Shahin Eskandari, PhD (Montreal, QC):
-- Couple-Stress Theory for Materials with Microstructures
-#+ATTR_HTML: :width 100px
-[[./visuals/2025/passport_se.jpg]]
-
-** Prof. Tahsin Khajah (Tyler, TX)
-- Comparing Taylor and Pade Approximations for Ultrasound Imaging of Biological Media
-#+ATTR_HTML: :width 100px
-[[./visuals/2025/passport_tk.jpeg]]
-
-** [[https://bilenemek.abali.org/][Prof. Emek Abali]] (Uppsala, SK)
-- Deformation in batteries during charging and discharging
-- [[https://link.springer.com/book/10.1007/978-981-10-2444-3][Computational Reality]]
-#+ATTR_HTML: :width 100px
-[[./visuals/2025/passport_bea.webp]]
+** ??
 
 * Workshop Calender:
 ** Thursday, Sep.03:
