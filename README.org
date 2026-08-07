@@ -27,9 +27,11 @@ Meeting Link: https://meet.jit.si/oscmw-2026
   3. Maintaining your virtual Archlinux OS
 *** 17:00 Session 2: =git= for Collaborative Research
 - Speaker: Volkan Karadağ
-- Topics: 
   1. setting up user accounts, authentication by tokens
   2. accessing our github repo (mekanotrix)
+  3. creating a new project
+  4. branching and collaborative parallel workflow
+  5. fetch, merge, pull cycle
 *** 22:00 Session 3: Research Seminar
 - Speaker: 
 - Title: 
@@ -41,22 +43,24 @@ Meeting Link: https://meet.jit.si/oscmw-2026
   2. Setting up a bibliographic databes with Zotero
   3. Using BibTeX to access the bibliography from LaTeX
   4. Using LaTeX on the cloud with Overleaf
-*** 15:00 Session 5: CalculiX/FEA under Focus
-- Speaker: Fethi Okyar
-- Title: An Essential Tool for Finite Element Analyses
+*** 15:00 Session 5: CalculiX: an open-source FEA package
+- Speaker: Maya Çoban
+- Title: Calculix: An Essential Tool for Finite Element Analyses
 - Deliverables:
   1. Installing and setting up CalculiX and dependencies in an Archlinux environment
   2. Using the documentation and discourse site for getting help
   3. Using =cgx= and =ccx= in a sample problem
+  4. Understanding the CAD/FEA workflow, installing and setting up FreeCAD and Gmsh 
 *** 21:30 Session 6: Research Seminar
 - Speaker: 
 - Title:
 ** Saturday, Sep.05:
-*** 10:00 Session 7: Understanding the CAD/FEA Workflow
-- Speaker: Maya Çoban
-- Deliverables:
-  1. Installing and setting up FreeCAD and Gmsh in an Archlinux environment
-  2. 
+*** 10:00 Session 7: Setting up a local LLM
+- Speaker: Volkan Karadağ & Eren Kabarık
+- Delverables:
+  1. introduction to LLMs, weights, and transformers
+  2. installing =ollama= as an application/service
+  3. talkıng to an LLM, best practices
 *** 15:00 Session 8: Current Research in Metamaterials
 - Speaker: Neşet Biçkin
 - Title: 
@@ -64,9 +68,9 @@ Meeting Link: https://meet.jit.si/oscmw-2026
   - ?
 *** 21:30 Session 9: Current Research in Underwater Acoustics
 - Speaker: Kerem Aydınlı
-- Title:
+- Title: TMATROM, a powerful Matlab tool for fast-multiple acoustic scattering
 - Deliverables:
-  - ?
+  - 
 ** Sunday, Sep.06:
 *** 10:00 Session 10: Research Seminar
 - Speaker: Emre Alpman
