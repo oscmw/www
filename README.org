@@ -61,28 +61,30 @@ Meeting Link: https://meet.jit.si/oscmw-2026
   1. introduction to LLMs, weights, and transformers
   2. installing =ollama= as an application/service
   3. talkıng to an LLM, best practices
-*** 15:00 Session 8: Current Research in Metamaterials
-- Speaker: Neşet Biçkin
-- Title: 
-- Deliverables:
-  - ?
+*** 15:00 Session 8: Research Seminar
+- Speaker: Emre Alpman
+- Title: Computational Fluid/Structure Interaction Using Open-Source Tools
+- Deliverables: 
 *** 21:30 Session 9: Current Research in Underwater Acoustics
 - Speaker: Kerem Aydınlı
 - Title: TMATROM, a powerful Matlab tool for fast-multiple acoustic scattering
 - Deliverables:
   - 
 ** Sunday, Sep.06:
-*** 10:00 Session 10: Research Seminar
-- Speaker: Emre Alpman
-- Title: Computational Fluid/Structure Interaction Using Open-Source Tools
-- Deliverables: 
+*** 10:00 Session 10: Current Research in Metamaterials
+- Speaker: Neşet Biçkin
+- Title: 
+- Deliverables:
+  - ?
 *** 15:00 Closing Session: Technology Focus
 - Speaker: Mete Öğüç
 - Title: Ultrasound Assisted Extraction of Plant Bioactive Compounds
 *** 20:30 Dinner at Lunapark Restaurant
-* Campers:
+* Participants:
+** Scientific Committee
 - Asst. Prof. Dr. Mete Öğüç (Ph.D.,2023) Atlas Univ., BME Dept. (Chair)
 - Dr. Volkan Karadağ (Ph.D.,2024), Yeditepe Univ., ME Dept. (Part-time Instructor)
+** Campers:
 - Neşet Biçkin (ME,2025), Yeditepe Univ., ME Dept. (Ph.D. Student)
 - Kerem Aydınlı (B.Sc.,2026), Otokoç, Design Engineer
 - Pelin Özdemir (B.Sc.,2026), Yeditepe Univ., BME Dept.
