@@ -10,7 +10,9 @@
 #+ATTR_HTML: :width 100px
 [[./visuals/2025/95773199.png]]
 
-*Management:* Fethi Okyar and Neşet Biçkin
+*Administrative Staff:* Maya Çoban and Eren Kabarık
+
+*Scientific Committee:* Asst. Prof. Mete Öğüç (Atlas University), Dr. Volkan Karadağ
 
 Meeting Link: https://meet.jit.si/oscmw-2026
 
