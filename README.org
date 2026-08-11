@@ -17,7 +17,11 @@
 Meeting Link: https://meet.jit.si/oscmw-2026
 
 * Highlights:
-** ??
+** Prof. Tahsin Khajah
+University of Texas at Tyler, U.S.A.
+#+ATTR_HTML: :width 800px
+#+ATTR_REVEAL: :width 400
+[[./visuals/2025/passport_tk.jpeg]]
 
 * Workshop Calender:
 ** Thursday, Sep.03:
@@ -34,9 +38,9 @@ Meeting Link: https://meet.jit.si/oscmw-2026
   3. creating a new project
   4. branching and collaborative parallel workflow
   5. fetch, merge, pull cycle
-*** 22:00 Session 3: Research Seminar
-- Speaker: 
-- Title: 
+*** 21:30 Session 3: Research Seminar
+- Speaker: Tahsin Khajah
+- Title: Iterative On Surface Radiation Conditions for Transmission Problem
 ** Friday, Sep.04:
 *** 10:00 Session 4: Essential Research Production Tools
 - Speaker: Fethi Okyar
@@ -70,8 +74,6 @@ Meeting Link: https://meet.jit.si/oscmw-2026
 *** 21:30 Session 9: Current Research in Underwater Acoustics
 - Speaker: Kerem Aydınlı
 - Title: TMATROM, a powerful Matlab tool for fast-multiple acoustic scattering
-- Deliverables:
-  - 
 ** Sunday, Sep.06:
 *** 10:00 Session 10: Current Research in Metamaterials
 - Speaker: Neşet Biçkin
