@@ -27,7 +27,11 @@ Uppsala University, Sweden
 #+ATTR_HTML: :width 100px
 #+ATTR_REVEAL: :width 100px
 [[./visuals/2025/passport_bea.webp]]
-
+** Prof. Emre Alpman
+Marmara University, Istanbul
+#+ATTR_HTML: :width 100px
+#+ATTR_REVEAL: :width 100px
+[[./visuals/2026/passport_ea.jpeg]]
 * Workshop Calender:
 ** Thursday, Sep.03:
 *** 13:00 Opening Session: Essentials for Beginners
