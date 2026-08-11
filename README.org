@@ -22,6 +22,11 @@ University of Texas at Tyler, U.S.A.
 #+ATTR_HTML: :width 100px
 #+ATTR_REVEAL: :width 100px
 [[./visuals/2025/passport_tk.jpeg]]
+** Prof. Emek Abali
+Uppsala University, Sweden
+#+ATTR_HTML: :width 100px
+#+ATTR_REVEAL: :width 100px
+[[./visuals/2025/passport_bea.webp]]
 
 * Workshop Calender:
 ** Thursday, Sep.03:
