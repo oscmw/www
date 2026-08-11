@@ -19,8 +19,8 @@ Meeting Link: https://meet.jit.si/oscmw-2026
 * Highlights:
 ** Prof. Tahsin Khajah
 University of Texas at Tyler, U.S.A.
-#+ATTR_HTML: :width 800px
-#+ATTR_REVEAL: :width 100
+#+ATTR_HTML: :width 100px
+#+ATTR_REVEAL: :width 100px
 [[./visuals/2025/passport_tk.jpeg]]
 
 * Workshop Calender:
