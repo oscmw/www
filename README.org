@@ -80,9 +80,9 @@ Marmara University, Istanbul
 - Speaker: Emre Alpman
 - Title: Computational Fluid/Structure Interaction Using Open-Source Tools
 - Deliverables: 
-*** 21:30 Session 9: Current Research in Underwater Acoustics
-- Speaker: Kerem Aydınlı
-- Title: TMATROM, a powerful Matlab tool for fast-multiple acoustic scattering
+*** 21:30 Session 9: Research Seminar
+- Speaker: 
+- Title: 
 ** Sunday, Sep.06:
 *** 10:00 Session 10: Current Research in Metamaterials
 - Speaker: Neşet Biçkin
@@ -99,7 +99,6 @@ Marmara University, Istanbul
 - Dr. Volkan Karadağ (Ph.D.,2024), Yeditepe Univ., ME Dept. (Part-time Instructor)
 ** Campers:
 - Neşet Biçkin (ME,2025), Yeditepe Univ., ME Dept. (Ph.D. Student)
-- Kerem Aydınlı (B.Sc.,2026), Otokoç, Design Engineer
 - Pelin Özdemir (B.Sc.,2026), Yeditepe Univ., BME Dept.
 - Adam Ruszczak (B.Sc.,2027), Military University of Technology in Warsaw, ME Dept.
 - Eren Kabarık (B.Sc., 2027), Yeditepe Univ., ME Dept.
