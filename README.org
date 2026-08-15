@@ -17,22 +17,22 @@
 Meeting Link: https://meet.jit.si/oscmw-2026
 
 * Highlights:
-** Prof. Tahsin Khajah
+** [[https://www.uttyler.edu/directory/mechanical-engineering/khajah.php][Prof. Tahsin Khajah]]
 University of Texas at Tyler, U.S.A.
 #+ATTR_HTML: :width 100px
 #+ATTR_REVEAL: :width 100px
 [[./visuals/2025/passport_tk.jpeg]]
-** Prof. Emek Abali
+** [[https://www.uu.se/en/contact-and-organisation/staff?query=N20-1797][Prof. Emek Abali]]
 Uppsala University, Sweden
 #+ATTR_HTML: :width 100px
 #+ATTR_REVEAL: :width 100px
 [[./visuals/2025/passport_bea.webp]]
-** Prof. Emre Alpman
+** [[https://avesis.marmara.edu.tr/emre.alpman][Prof. Emre Alpman]]
 Marmara University, Istanbul
 #+ATTR_HTML: :width 100px
 #+ATTR_REVEAL: :width 100px
 [[./visuals/2026/passport_ea.jpeg]]
-** Prof. Gianluca Memoli
+** [[https://profiles.sussex.ac.uk/p390809-gianluca-memoli][Prof. Gianluca Memoli]]
 University of Sussex, U.K.
 #+ATTR_HTML: :width 100px
 #+ATTR_REVEAL: :width 100px
