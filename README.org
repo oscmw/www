@@ -87,10 +87,13 @@ University of Sussex, U.K.
   1. introduction to LLMs, weights, and transformers
   2. installing =ollama= as an application/service
   3. talkıng to an LLM, best practices
-*** 15:00 Workshop 7: Getting the Optimization Cycle into Work
+*** 15:00 Workshop 7: Getting the Topology Optimization Cycle into Work
 - Speaker: Emre Alpman
-- Resources: 
-- Deliverables: 
+- Resources: https://dafoam.github.io/
+- Deliverables:
+  1. About setting up the OpenFoam package
+  2. On the role of automatic differentiation in optimization
+  3. Sample problems and their solutions
 *** 21:30 Seminar 3: Current Research in Metamaterials
 - Speaker: Neşet Biçkin
 ** Sunday, Sep.06:
