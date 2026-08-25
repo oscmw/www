@@ -43,7 +43,7 @@ University of Sussex, U.K.
 - Speaker: Maya Çoban
 - Deliverables:
   1. Understanding linux, console, =zsh=, =ssh=, =python=, emacs, etc.
-  2. Setting up a virtual Archlinux OS using virtualbox
+  2. Setting up a virtual Archlinux OS using virtualbox: See [[./visuals/2026/Vbox_archlinux_guide.pdf][Guide]]
   3. Maintaining your virtual Archlinux OS
 *** 17:00 Workshop 2: =git= for Collaborative Research
 - Speaker: Volkan Karadağ
