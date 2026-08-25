@@ -52,7 +52,7 @@ University of Sussex, U.K.
   3. creating a new project
   4. branching and collaborative parallel workflow
   5. fetch, merge, pull cycle
-*** 21:30 Seminar 1: Iterative On Surface Radiation Conditions for Transmission Problem
+*** 21:30 @@html:<span style="color: #e74c3c;">Seminar 1:</span>@@ Iterative On Surface Radiation Conditions for Transmission Problem
 - Speaker: Tahsin Khajah
 - Readings:: 
 ** Friday, Sep.04:
@@ -63,9 +63,8 @@ University of Sussex, U.K.
   2. Setting up a bibliographic databes with Zotero
   3. Using BibTeX to access the bibliography from LaTeX
   4. Using LaTeX on the cloud with Overleaf
-*** 12:00 Seminar 2: 
+*** 12:00 @@html:<span style="color: #e74c3c;">Seminar 2:</span>@@ Metamaterials In Action
 - Speaker: Gianluca Memoli
-- Readings:
 *** 15:00 Workshop 4: CalculiX: an open-source FEA package
 - Speaker: Maya Çoban
 - Title: Calculix: An Essential Tool for Finite Element Analyses
@@ -73,7 +72,9 @@ University of Sussex, U.K.
   1. Installing and setting up CalculiX and dependencies in an Archlinux environment
   2. Using the documentation and discourse site for getting help
   3. Using =cgx= and =ccx= in a sample problem
-  4. Understanding the CAD/FEA workflow, installing and setting up FreeCAD and Gmsh 
+  4. Understanding the CAD/FEA workflow, installing and setting up FreeCAD and Gmsh
+*** 16:30 @@html:<span style="color: #e74c3c;">Seminar 3:</span>@@ Advances in Computational Reality
+- Speaker: Emek Abali
 *** 21:30 Workshop 5: A New Type of Analysis Framework: FenicS/Firedrake
 - Speaker: Neşet Biçkin
 - Deliverables:
@@ -94,7 +95,7 @@ University of Sussex, U.K.
   1. About setting up the OpenFoam package
   2. On the role of automatic differentiation in optimization
   3. Sample problems and their solutions
-*** 21:30 Seminar 3: Current Research in Metamaterials
+*** 21:30 @@html:<span style="color: #e74c3c;">Seminar 4:</span>@@ Current Research in Metamaterials
 - Speaker: Neşet Biçkin
 ** Sunday, Sep.06:
 *** 10:00 Workshop 8: Using Fenics from JupyterLab
@@ -102,7 +103,7 @@ University of Sussex, U.K.
 - Deliverables:
   1. How to install and use JupyterLab as a Docker container
   2. Using Fenics from JupyterLab
-*** 15:00 Seminar 4: On the Solution of Nonlinear Wave Propagation Problems
+*** 15:00 @@html:<span style="color: #e74c3c;">Seminar 5:</span>@@ On the Solution of Nonlinear Wave Propagation Problems
 - Speaker: Tuğçe Sezer
 *** 20:30 Dinner at Lunapark Restaurant
 * Participants:
