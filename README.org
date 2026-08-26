@@ -1,7 +1,7 @@
 #+STARTUP: overview
 #+TITLE: 7th Open-Source Computational Mechanics and Acoustics Workshop and Summer Camp
 #+SUBTITLE: Program
-#+AUTHOR: Fethi Okyar
+#+AUTHOR: [[https://yeditepe.edu.tr/tr/akademik-kadro/180][Fethi Okyar]]
 #+CREATOR: Fethi Okyar
 #+LANGUAGE: en/tr
 #+OPTIONS: num:nil toc:nil
