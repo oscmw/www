@@ -15,6 +15,7 @@
 *Scientific Committee:* Asst. Prof. Mete Öğüç (Atlas University), Dr. Volkan Karadağ
 
 Meeting Link: https://meet.jit.si/oscmw-2026
+Livestream Link:
 
 * Highlights:
 ** [[https://www.uttyler.edu/directory/mechanical-engineering/khajah.php][Prof. Tahsin Khajah]]
@@ -105,7 +106,6 @@ University of Sussex, U.K.
   2. Using Fenics from JupyterLab
 *** 15:00 @@html:<span style="color: #e74c3c;">Seminar 5:</span>@@ On the Solution of Nonlinear Wave Propagation Problems
 - Speaker: Tuğçe Sezer
-*** 17:00 @@html:<span style="color: #e74c3c;">Seminar 6:</span>@@ 
 *** 20:30 Dinner at Lunapark Restaurant
 * Participants:
 ** Scientific Committee
