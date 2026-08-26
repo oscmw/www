@@ -44,7 +44,7 @@ University of Sussex, U.K.
 - Deliverables:
   1. Understanding linux, console, =zsh=, =ssh=, =python=, emacs, etc.
   2. Setting up a virtual Archlinux OS using virtualbox: See [[./visuals/2026/Vbox_archlinux_guide.pdf][Guide]]
-  3. Maintaining your virtual Archlinux OS
+  3. Maintaining your virtual Archlinux OS: [[https://mega.nz/file/2wQlBaRK#xfWCX_0xfUIRAn0mTJ8sRpxRqYasRd4YSyVpRN74SH0][download (~13GB)]]
 *** 17:00 Workshop 2: =git= for Collaborative Research
 - Speaker: Volkan Karadağ
   1. setting up user accounts, authentication by tokens
@@ -105,6 +105,7 @@ University of Sussex, U.K.
   2. Using Fenics from JupyterLab
 *** 15:00 @@html:<span style="color: #e74c3c;">Seminar 5:</span>@@ On the Solution of Nonlinear Wave Propagation Problems
 - Speaker: Tuğçe Sezer
+*** 17:00 @@html:<span style="color: #e74c3c;">Seminar 6:</span>@@ 
 *** 20:30 Dinner at Lunapark Restaurant
 * Participants:
 ** Scientific Committee
