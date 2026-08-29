@@ -19,26 +19,26 @@ Meeting Link: https://meet.jit.si/oscmw-2026
 Livestream Link:
 
 * Highlights:
-** [[https://www.uttyler.edu/directory/mechanical-engineering/khajah.php][Prof. Tahsin Khajah]]
-University of Texas at Tyler, U.S.A.
+** [[https://www.uttyler.edu/directory/mechanical-engineering/khajah.php][Prof. Tahsin Khajah]], University of Texas at Tyler, U.S.A.
+Live on Thursday, Sep.3,2026, 21:30 (UTC+3). Stream Link:
 #+ATTR_HTML: :width 100px
 #+ATTR_REVEAL: :width 100px
 [[./visuals/2025/passport_tk.jpeg]]
-** [[https://www.uu.se/en/contact-and-organisation/staff?query=N20-1797][Prof. Emek Abali]]
-Uppsala University, Sweden
-#+ATTR_HTML: :width 100px
-#+ATTR_REVEAL: :width 100px
-[[./visuals/2025/passport_bea.webp]]
-** [[https://avesis.marmara.edu.tr/emre.alpman][Prof. Emre Alpman]]
-Marmara University, Istanbul
-#+ATTR_HTML: :width 100px
-#+ATTR_REVEAL: :width 100px
-[[./visuals/2026/passport_ea.jpeg]]
-** [[https://profiles.sussex.ac.uk/p390809-gianluca-memoli][Prof. Gianluca Memoli]]
-University of Sussex, U.K.
+** [[https://profiles.sussex.ac.uk/p390809-gianluca-memoli][Prof. Gianluca Memoli]], University of Sussex, U.K.
+Live on Friday, Sep.4,2026, 12:00 (UTC+3). Stream Link:
 #+ATTR_HTML: :width 100px
 #+ATTR_REVEAL: :width 100px
 [[./visuals/2026/passport_gm.jpeg]]
+** [[https://www.uu.se/en/contact-and-organisation/staff?query=N20-1797][Prof. Emek Abali]], Uppsala University, Sweden
+Live on Friday, Sep.4,2026, 16:30 (UTC+3). Stream Link:
+#+ATTR_HTML: :width 100px
+#+ATTR_REVEAL: :width 100px
+[[./visuals/2025/passport_bea.webp]]
+** [[https://avesis.marmara.edu.tr/emre.alpman][Prof. Emre Alpman]], Marmara University, Istanbul
+Live on Saturday, Sep.5,2026, 15:00 (UTC+3). Stream Link:
+#+ATTR_HTML: :width 100px
+#+ATTR_REVEAL: :width 100px
+[[./visuals/2026/passport_ea.jpeg]]
 * Workshop Calender:
 ** Thursday, Sep.03:
 *** 13:00 Opening Workshop: Essentials for Beginners
