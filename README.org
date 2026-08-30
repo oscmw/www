@@ -41,7 +41,7 @@ Live on Saturday, Sep.5,2026, 15:00 (UTC+3). Stream Link:
 [[./visuals/2026/passport_ea.jpeg]]
 * Workshop Calender:
 ** Thursday, Sep.03:
-*** 13:00 Opening Workshop: Essentials for Beginners
+*** 11:00 Opening Workshop: Essentials for Beginners
 - Speaker: Maya Çoban and Fethi Okyar
 - Deliverables:
   1. Understanding linux, console, =zsh=, =ssh=, =python=, emacs, etc.
@@ -49,7 +49,7 @@ Live on Saturday, Sep.5,2026, 15:00 (UTC+3). Stream Link:
   3. Maintaining your virtual Archlinux OS: [[https://mega.nz/file/2wQlBaRK#xfWCX_0xfUIRAn0mTJ8sRpxRqYasRd4YSyVpRN74SH0][download (~13GB)]]
   4. Using an editor: [[https://www.gnu.org/savannah-checkouts/gnu/emacs/emacs.html][emacs]]
   5. Emacs customization
-*** 17:00 Workshop 2: =git= for Collaborative Research
+*** 15:00 Workshop 2: =git= for Collaborative Research
 - Speaker: Volkan Karadağ
   1. setting up user accounts, authentication by tokens
   2. accessing our github repo (mekanotrix)
