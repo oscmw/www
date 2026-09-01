@@ -15,27 +15,26 @@
 
 *Scientific Committee:* Asst. Prof. Mete Öğüç (Atlas University), Dr. Volkan Karadağ
 
-Meeting Link: https://meet.jit.si/oscmw-2026
-Livestream Link:
+Meeting Link: https://meet.jit.si/oscmw-2026 (External visitors should use the livestream links provided below.)
 
 * Highlights:
 ** [[https://www.uttyler.edu/directory/mechanical-engineering/khajah.php][Prof. Tahsin Khajah]], University of Texas at Tyler, U.S.A.
-Live on Thursday, Sep.3,2026, 21:30 (UTC+3). Stream Link:
+Live on Thursday, Sep.3,2026, 21:30 (UTC+3). Stream Link: https://youtube.com/live/QVSjlPvpQKU?feature=share
 #+ATTR_HTML: :width 100px
 #+ATTR_REVEAL: :width 100px
 [[./visuals/2025/passport_tk.jpeg]]
 ** [[https://profiles.sussex.ac.uk/p390809-gianluca-memoli][Prof. Gianluca Memoli]], University of Sussex, U.K.
-Live on Friday, Sep.4,2026, 12:00 (UTC+3). Stream Link:
+Live on Friday, Sep.4,2026, 12:00 (UTC+3). Stream Link: https://youtube.com/live/jFyYp6PjWXw?feature=share
 #+ATTR_HTML: :width 100px
 #+ATTR_REVEAL: :width 100px
 [[./visuals/2026/passport_gm.jpeg]]
 ** [[https://www.uu.se/en/contact-and-organisation/staff?query=N20-1797][Prof. Emek Abali]], Uppsala University, Sweden
-Live on Friday, Sep.4,2026, 16:30 (UTC+3). Stream Link:
+Live on Friday, Sep.4,2026, 16:30 (UTC+3). Stream Link: https://youtube.com/live/f0Oabgj4XCI?feature=share
 #+ATTR_HTML: :width 100px
 #+ATTR_REVEAL: :width 100px
 [[./visuals/2025/passport_bea.webp]]
 ** [[https://avesis.marmara.edu.tr/emre.alpman][Prof. Emre Alpman]], Marmara University, Istanbul
-Live on Saturday, Sep.5,2026, 15:00 (UTC+3). Stream Link:
+Live on Saturday, Sep.5,2026, 15:00 (UTC+3). Stream Link: https://youtube.com/live/Gwd5hv_9Rxo?feature=share
 #+ATTR_HTML: :width 100px
 #+ATTR_REVEAL: :width 100px
 [[./visuals/2026/passport_ea.jpeg]]
@@ -58,7 +57,7 @@ Live on Saturday, Sep.5,2026, 15:00 (UTC+3). Stream Link:
   5. fetch, merge, pull cycle
 *** 21:30 @@html:<span style="color: #e74c3c;">Seminar 1:</span>@@ Iterative On Surface Radiation Conditions for Transmission Problem
 - Speaker: Tahsin Khajah
-- Readings:: 
+- Livestream Link: https://youtube.com/live/QVSjlPvpQKU?feature=share
 ** Friday, Sep.04:
 *** 10:00 Workshop 3: Essential Research Production Tools
 - Speaker: Fethi Okyar
@@ -69,6 +68,7 @@ Live on Saturday, Sep.5,2026, 15:00 (UTC+3). Stream Link:
   4. Using LaTeX on the cloud with Overleaf
 *** 12:00 @@html:<span style="color: #e74c3c;">Seminar 2:</span>@@ Metamaterials In Action
 - Speaker: Gianluca Memoli
+- Livestream Link: https://youtube.com/live/jFyYp6PjWXw?feature=share
 *** 15:00 Workshop 4: CalculiX: an open-source FEA package
 - Speaker: Maya Çoban
 - Title: Calculix: An Essential Tool for Finite Element Analyses
@@ -79,6 +79,7 @@ Live on Saturday, Sep.5,2026, 15:00 (UTC+3). Stream Link:
   4. Understanding the CAD/FEA workflow, installing and setting up FreeCAD and Gmsh
 *** 16:30 @@html:<span style="color: #e74c3c;">Seminar 3:</span>@@ Advances in Computational Reality
 - Speaker: Emek Abali
+- Livestream Link: https://youtube.com/live/f0Oabgj4XCI?feature=share
 *** 21:30 Workshop 5: A New Type of Analysis Framework: FenicS/Firedrake
 - Speaker: Neşet Biçkin
 - Deliverables:
@@ -94,6 +95,7 @@ Live on Saturday, Sep.5,2026, 15:00 (UTC+3). Stream Link:
   3. talkıng to an LLM, best practices
 *** 15:00 Workshop 7: Getting the Topology Optimization Cycle into Work
 - Speaker: Emre Alpman
+- Livestream Link: https://youtube.com/live/Gwd5hv_9Rxo?feature=share
 - Resources: https://dafoam.github.io/
 - Deliverables:
   1. About setting up the OpenFoam package
@@ -101,6 +103,7 @@ Live on Saturday, Sep.5,2026, 15:00 (UTC+3). Stream Link:
   3. Sample problems and their solutions
 *** 21:30 @@html:<span style="color: #e74c3c;">Seminar 4:</span>@@ Current Research in Metamaterials
 - Speaker: Neşet Biçkin
+- Livestream Link: https://youtube.com/live/IAZajQKs44c?feature=share
 ** Sunday, Sep.06:
 *** 10:00 Workshop 8: Using Fenics from JupyterLab
 - Speaker: Mete Öğüç
