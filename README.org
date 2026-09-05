@@ -105,7 +105,7 @@ Live on Saturday, Sep.5,2026, 15:00 (UTC+3). Stream Link: https://youtube.com/li
 - Speaker: Neşet Biçkin
 - Livestream Link: https://youtube.com/live/IAZajQKs44c?feature=share
 ** Sunday, Sep.06:
-*** 10:00 Workshop 8: Using Fenics from JupyterLab
+*** 11:00 Workshop 8: Using Fenics from JupyterLab
 - Speaker: Mete Öğüç
 - Deliverables:
   1. How to install and use JupyterLab as a Docker container
