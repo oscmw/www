@@ -97,6 +97,7 @@ Live on Saturday, Sep.5,2026, 15:00 (UTC+3). Stream Link: https://youtube.com/li
 - Speaker: Emre Alpman
 - Livestream Link: https://youtube.com/live/Gwd5hv_9Rxo?feature=share
 - Resources: https://dafoam.github.io/
+- [[./visuals/2026/workshop_ea.pdf][Presentation Slides]]
 - Deliverables:
   1. About setting up the OpenFoam package
   2. On the role of automatic differentiation in optimization
